@@ -377,4 +377,3 @@ if ($WebhookUrl -and (-not [string]::IsNullOrWhiteSpace($WebhookUrl))) {
         Write-Error "Erro durante envio para webhook: $_"
     }
 } 
-

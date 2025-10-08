@@ -1,0 +1,49 @@
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5A 00 00 00
+## 
+name: Recall
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 11 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: POWER
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 3D 00 00 00
+## 
+name: 0
+type: parsed
+protocol: RC5
+address: 1C 00 00 00
+command: 00 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 926 754 928 755 925 758 873 810 1728 806 903 1612 1725 807 872 1643 873 810 1728 806 873 85940 871 811 902 781 927 755 901 781 1753 779 899 1616 1726 806 873 1642 873 810 1726 806 899
+## 
+name: Mute
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 872 781 1753 1641 873 810 1725 809 872 1643 1725 808 873 810 872 1643 873 810 1725 85933 981 700 1724 1612 900 810 1725 807 872 1614 1753 778 901 808 874 1641 929 752 1727
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 08 00 00 00
+command: 0C 00 00 00
+#

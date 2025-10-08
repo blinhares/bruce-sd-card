@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GhostStrats CipherPortal - Encrypted Message Broadcast System</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+    body {
+      font-family: 'Share Tech Mono', monospace;
+      background-color: #0a0f1c;
+      color: #00ffe5;
+      text-align: center;
+      padding: 40px;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    .neon-strip {
+      position: fixed;
+      width: 6px;
+      height: 100%;
+      top: 0;
+      background: linear-gradient(to bottom, #ff1aff 0%, #00ffe5 100%);
+      opacity: 0.25;
+      animation: drift 5s linear infinite;
+      z-index: 0;
+    }
+
+    .neon-strip.cyan {
+      background: linear-gradient(to bottom, #00ffe5 0%, #ff1aff 100%);
+      animation-delay: 2.5s;
+    }
+
+    .neon-strip.left1 { left: 10%; }
+    .neon-strip.left2 { left: 25%; }
+    .neon-strip.center { left: 50%; }
+    .neon-strip.right1 { left: 75%; }
+    .neon-strip.right2 { left: 90%; }
+
+    @keyframes drift {
+      0% { transform: translateY(-100%); }
+      100% { transform: translateY(100%); }
+    }
+
+    #login, #messageArea {
+      position: relative;
+      max-width: 520px;
+      margin: auto;
+      background: rgba(10, 10, 20, 0.9);
+      padding: 30px;
+      border-radius: 12px;
+      border: 1px solid #00ffe5;
+      box-shadow: 0 0 25px #00ffe5, 0 0 35px #ff1aff;
+      z-index: 1;
+      backdrop-filter: blur(5px);
+    }
+
+    h2 {
+      color: #00ffe5;
+      text-shadow: 0 0 8px #ff1aff, 0 0 14px #00ffe5;
+    }
+
+    input, button {
+      font-family: 'Share Tech Mono', monospace;
+      background-color: #13001f;
+      color: #00ffe5;
+      border: 1px solid #ff1aff;
+      padding: 12px;
+      margin: 12px 0;
+      width: 100%;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #260033;
+      color: #ff1aff;
+      border-color: #00ffe5;
+      cursor: pointer;
+    }
+
+    #portalMessage {
+      margin-top: 20px;
+      color: #ffffff;
+      text-align: left;
+      border-top: 1px solid #ff1aff;
+      padding-top: 15px;
+      animation: pulseFade 2s infinite ease-in-out;
+    }
+
+    @keyframes pulseFade {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.75; }
+    }
+
+    #error {
+      color: #ff5370;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Animated Neon Strips -->
+<div class="neon-strip left1"></div>
+<div class="neon-strip left2 cyan"></div>
+<div class="neon-strip center"></div>
+<div class="neon-strip right1 cyan"></div>
+<div class="neon-strip right2"></div>
+
+<div id="login">
+  <h2>GhostStrats Access Terminal</h2>
+  <input type="password" id="passwordInput" placeholder=">> ENTER ACCESS CODE">
+  <button onclick="checkPassword()">CONNECT</button>
+  <p id="error"></p>
+</div>
+
+<div id="messageArea" style="display:none;">
+  <h2>Encrypted Message Unlocked</h2>
+  <div id="portalMessage">
+    <p>
+      Gjqwlk ziaglkk. Hjtfldilkovb txybes...
+     Egihhahf: 1800 @ 4444 Frig Kz.
+     Afsowe cizzz Nfwxf. Tmobv ybfnxaecaguk.
+     Zwygse galkkk hzkgnxh 3 fsyrsv kweryl.
+     Oourgp gy rcvwyz wk lzhit.
+     “Lsllhq bk te iedazwgg.
+     --YafsmKzyoll
+    </p>
+  </div>
+</div>
+
+<script>
+  const correctPassword = "Password";
+
+  function checkPassword() {
+    const input = document.getElementById('passwordInput').value;
+    if (input === correctPassword) {
+      document.getElementById('login').style.display = 'none';
+      document.getElementById('messageArea').style.display = 'block';
+    } else {
+      document.getElementById('error').textContent = "ACCESS DENIED.";
+    }
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+# 
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 82 00 00 00
+command: 0E 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: POWER
+type: parsed
+protocol: NECext
+address: 01 88 00 00
+command: 70 8F 00 00
+## 
+name: Vol -
+type: parsed
+protocol: NECext
+address: 01 88 00 00
+command: 69 96 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: POWER
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0D 00 00 00
+## 
+name: Ok
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 12 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: POWER
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0D 00 00 00
+## 
+name: Ok
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 12 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: POWER
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0D 00 00 00
+#

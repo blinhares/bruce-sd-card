@@ -1,0 +1,139 @@
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 14 00 00 00
+## 
+name: POWER
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 12 00 00 00
+##
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9072 4364 664 1566 664 451 663 1567 663 453 661 454 660 478 636 1594 636 479 635 1595 635 480 635 1596 634 481 634 1597 633 1597 634 482 633 1598 632 482 633 482 633 482 633 482 633 482 633 482 633 1597 633 1598 632 1598 632 1598 632 1598 632 1598 632 1598 632 1598 632 482 633 482 633 39968 9043 2203 634 95675 9067 2203 634 95675 9067 2203 634
+## 
+name: Power
+type: parsed
+protocol: RC6
+address: 04 00 00 00
+command: C7 00 00 00
+##
+name: Power
+type: parsed
+protocol: RC6
+address: 30 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: D0 03 00 00
+##  
+name: Dvd_power
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: D0 03 00 00
+## 
+name: Tv_power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: 4C B3 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 49 00 00 00
+command: 1A 00 00 00
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8348 4516 572 570 569 544 595 545 574 566 574 540 599 541 567 572 567 547 603 1677 571 1684 575 1679 600 1681 567 1687 572 1682 597 1684 575 1679 569 1685 594 546 573 1681 598 542 577 563 576 538 601 1679 569 1685 574 566 573 1681 567 573 566 1688 571 1683 597 1685 574 540 599 540 568 40177 8374 2266 573
+##
+name: Power
+type: parsed
+protocol: SIRC20
+address: 3A 09 00 00
+command: 15 00 00 00
+## 
+name: Tv_power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Power
+type: parsed
+protocol: SIRC20
+address: 3A 09 00 00
+command: 15 00 00 00
+##
+name: POWER
+type: parsed
+protocol: Samsung32
+address: 10 00 00 00
+command: 1E 00 00 00
+## 
+name: POWER
+type: parsed
+protocol: Samsung32
+address: 2D 00 00 00
+command: 30 00 00 00
+## 
+name: TV_POWER
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 87 22 00 00
+command: 41 BE 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4A 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 87 22 00 00
+command: 41 BE 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 03 00 00 00
+##
+name: POWER
+type: parsed
+protocol: NEC
+address: AF 00 00 00
+command: BC 00 00 00
+#

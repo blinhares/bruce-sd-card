@@ -1,0 +1,81 @@
+# 
+name: POWER
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 18 00 00 00
+## 
+name: SETTINGS
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 25 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: POWER
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: 81 00 00 00
+## 
+name: Page_down
+type: parsed
+protocol: NEC
+address: 31 00 00 00
+command: CC 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: POWER
+type: parsed
+protocol: NECext
+address: 33 FF 00 00
+command: 00 FF 00 00
+## 
+name: RIGHT
+type: parsed
+protocol: NECext
+address: 33 FF 00 00
+command: 1D E2 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: Options
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 40 00 00 00
+##
+name: 0
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 00 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: POWER
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 52 00 00 00
+## 
+name: Display_off
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 4E 00 00 00
+## 
+name: Soundcontrols
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 0D 00 00 00
+#

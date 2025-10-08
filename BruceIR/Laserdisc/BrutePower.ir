@@ -1,0 +1,112 @@
+#
+name: POWER
+type: parsed
+protocol: NEC
+address: A8 00 00 00
+command: 1C 00 00 00
+##
+name: SIDE B
+type: parsed
+protocol: NEC
+address: A8 00 00 00
+command: 4E 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8557 4220 566 507 512 557 544 506 566 1577 543 506 567 1577 543 504 569 1576 544 1577 515 1608 566 1577 544 506 566 1576 545 506 566 1578 543 505 567 503 516 556 545 1575 517 1609 565 1578 542 506 567 503 516 558 543 1576 516 1607 567 504 515 557 544 505 567 1577 544 1574 518 1608 566
+##
+name: +10
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8560 4215 568 501 569 505 545 503 570 1576 544 503 570 1574 546 504 568 1575 545 1575 568 1555 568 1578 542 505 568 1575 545 505 567 1576 544 505 568 1576 544 1575 568 1553 570 1576 544 1576 567 504 546 502 570 503 567 504 546 504 568 503 567 505 545 505 567 1575 545 1576 567 1553 570Filetype: IR signals file
+Version: 1
+##
+name: POWER
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8620 4191 627 1503 628 1503 628 438 627 437 628 437 628 1504 627 438 627 1505 626 437 628 437 628 1503 628 1503 628 1503 628 438 627 1503 628 437 628 1503 628 439 626 438 627 1504 627 1504 627 437 628 440 625 1503 627 438 627 1503 628 1503 628 437 628 438 627 1504 627 1503 628 438 627 35566 8620 4192 626 1504 627 1505 626 1504 627 1505 626 437 628 1504 627 439 626 1504 627 438 627 439 626 439 626 438 627 1504 627 438 627 1505 626 439 626 438 627 438 627 1504 627 1505 626 1504 627 1505 626 439 626 1504 627 1504 627 1504 627 438 627 439 626 438 627 439 626 1505 626 439 626
+##
+name: EJECT
+type: parsed
+protocol: Pioneer
+address: A3 00 00 00
+command: 99 00 00 00
+##
+name: PLAY
+type: parsed
+protocol: Pioneer
+address: A3 00 00 00
+command: 9E 00 00 00
+##
+name: PAUSE
+type: parsed
+protocol: Pioneer
+address: A3 00 00 00
+command: 9F 00 00 00
+##
+name: STOP
+type: parsed
+protocol: Pioneer
+address: A3 00 00 00
+command: 98 00 00 00
+##
+name: FORWARD
+type: parsed
+protocol: Pioneer
+address: A3 00 00 00
+command: 9A 00 00 00
+##
+name: REVERSE
+type: parsed
+protocol: Pioneer
+address: A3 00 00 00
+command: 9B 00 00 00
+##
+name: PREV CHAPTER
+type: parsed
+protocol: Pioneer
+address: A3 00 00 00
+command: 9D 00 00 00
+##
+name: PREV FRAME
+type: parsed
+protocol: Pioneer
+address: A3 00 00 00
+command: 99 00 00 00
+##
+name: SIDE A/B
+type: parsed
+protocol: Pioneer
+address: A3 00 00 00
+command: 99 00 00 00
+##
+name: FL DIM
+type: parsed
+protocol: Pioneer
+address: A3 00 00 00
+command: 99 00 00 00
+##
+name: REPEAT
+type: parsed
+protocol: Pioneer
+address: A3 00 00 00
+command: 99 00 00 00
+##
+name: REPEAT A-B
+type: parsed
+protocol: Pioneer
+address: A3 00 00 00
+command: 99 00 00 00
+##
+name: CLEAR
+type: parsed
+protocol: Pioneer
+address: A3 00 00 00
+command: 99 00 00 00
+#

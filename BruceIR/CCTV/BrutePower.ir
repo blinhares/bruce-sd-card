@@ -1,0 +1,31 @@
+#
+name: Power
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 0C F3 00 00
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 01 FF 00 00
+command: 0C F3 00 00
+## 
+name: POWER
+type: parsed
+protocol: SIRC15
+address: D4 00 00 00
+command: 15 00 00 00
+## 
+name: POWER
+type: parsed
+protocol: NEC
+address: 44 00 00 00
+command: 1B 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 02 00 00 00
+#

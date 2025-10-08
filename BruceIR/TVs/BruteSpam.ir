@@ -1,0 +1,8016 @@
+#
+name: Power
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 17 E8 00 00
+## 
+name: Options
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 61 9E 00 00
+## 
+name: Mute
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 20 DF 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 38 00 00 00
+command: 12 00 00 00
+## 
+name: Caption
+type: parsed
+protocol: NEC
+address: 38 00 00 00
+command: 11 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 17 E8 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 38 00 00 00
+command: 12 00 00 00
+##
+name: Power
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 54 00 00 00
+##
+name: Power
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 54 00 00 00
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 04 B9 00 00
+command: 00 FF 00 00
+##
+name: Power
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 54 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 82 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 0A F5 00 00
+##
+name: Power
+type: raw
+frequency: 36700
+duty_cycle: 0.330000
+data: 3488 3488 872 2616 872 872 872 872 872 2616 872 872 872 2616 872 872 872 872 872 872 872 872 872 872 872 2616 872 872 872 2616 872 2616 872 872 872 2616 872 872 872 2616 872 2616 872 2616 872 2616 872 2616 872 872 872 34008
+##
+name: POWER
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9016 4408 603 512 602 512 629 1599 686 428 630 483 630 484 629 485 628 492 627 1604 625 1605 624 491 623 1630 599 1631 598 1631 598 1631 598 1636 599 515 599 515 599 515 599 1631 599 515 599 515 599 515 599 521 599 1631 599 1631 599 1631 598 515 599 1631 598 1631 598 1631 598 1632 598 39999 9016 2166 626 95735 9012 2168 625 95735 9013 2167 626
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9219 4484 662 469 661 469 661 1627 660 471 658 474 656 499 631 499 631 499 631 1657 630 1657 631 500 630 1657 631 1657 631 1657 630 1657 631 1657 631 500 630 500 630 500 630 1657 630 500 631 500 630 500 631 500 630 1657 630 1658 630 1657 631 500 630 1657 631 1658 630 1658 630 1658 630 40107 9106 2202 631
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Power
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 10 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: A0 00 00 00
+command: 5F 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0F F0 00 00
+##
+name: Power
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 54 00 00 00
+##
+name: Power_on_(3a)
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 5C 00 00 00
+##
+name: Power_off_(3b)
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: DC 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 17 E8 00 00
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 182 7827 172 2332 177 2328 181 2323 176 2330 179 1309 175 1331 174 2331 178 1328 177 2328 181 1307 177 2327 182 1325 180 1326 179 1309 176 1331 174 1332 173 2333 176 2310 178 1328 177 2328 181 1325 180 2306 182 1325 180 2325 174 8340 183 7825 175 2330 179 2326 173 2333 176 2310 178 1328 177 1329 176 2329 180 1308 176 2329 180 1326 179 2326 173 1334 182 1306 179 1328 177 1329 176 1312 183 2322 177 2329 180 1326 179 2325 174 1315 180 2326 173 1333 183 2323 176 8339 183 7824 175 2330 179 2307 181 2324 175 2331 178 1328 177 1330 175 2311 177 1329 176 2329 180 1326 179 2327 182 1305 179 1328 177 1328 177 1311 173 1334 182 2323 176 2330 179 1326 571 1916 180 1327 178 2325 587 920 575 1930 579
+##
+name: Power
+type: parsed
+protocol: NEC
+address: A0 00 00 00
+command: 5F 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 52 00 00 00
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9047 4385 682 474 682 1578 708 476 679 1581 706 477 679 1582 705 1582 705 1582 678 1583 679 1607 679 1582 678 478 679 478 678 477 679 1582 705 1582 679 1583 679 1608 704 1582 705 478 678 1582 705 478 678 478 678 478 679 477 679 478 679 478 678 1582 705 478 678 1583 704 1582 705 1582 679 39574 9073 4387 679 478 678 1583 679 503 677 1584 705 478 678 1582 705 1582 705 1582 705 1582 705 1582 705 1582 678 479 677 479 678 479 677 1583 679 1608 704 1582 705 1582 705 1582 705 478 678 1583 704 478 678 478 678 1582 680 478 703 453 704 453 703 1557 703 480 676 1584 704 1583 704 478 678
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0F F0 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0F F0 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0F F0 00 00
+## 
+name: Power
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+## 
+name: Power
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 15 EA 00 00
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 01 72 00 00
+command: 1E E1 00 00
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 337 1695 339 664 340 664 339 665 338 664 339 693 310 1695 339 1696 338 693 310 1697 337 666 337 693 310 693 310 1723 311 692 311 44457 309 1723 310 692 311 692 311 692 311 693 310 1723 310 694 334 669 334 1700 333 672 331 1703 330 1727 306 1704 330 697 306 1727 306 42378 309 1724 333 670 333 670 333 672 331 673 330 673 330 1704 329 1704 329 674 329 1727 306 698 305 698 305 698 305 1728 305 698 305 44436 309 1724 334 670 333 671 332 672 331 697 306 1728 306 674 329 697 306 1728 306 698 306 1728 306 1727 306 1728 305 698 305 1727 306 42378 309 1724 334 669 334 671 332 672 330 673 330 697 306 1703 330 1727 306 697 306 1727 306 697 306 698 305 697 306 1728 305 697 306 44431 309 1724 334 670 333 670 333 672 331 696 306 1727 306 697 306 697 306 1727 306 697 306 1727 306 1727 306 1727 306 697 306 1728 305 42373 309 1724 334 670 333 670 333 671 332 697 306 697 306 1727 305 1727 306 697 306 1728 305 697 306 697 306 697 306 1727 306 697 306 44427 309 1724 334 669 334 670 333 672 331 697 306 1728 306 697 306 697 306 1727 306 697 306 1727 306 1727 306 1727 306 697 306 1728 305
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 02 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 02 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 52 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 561 442 562 4055 591 5032 592 413 591 4026 593 411 593 4026 593 5030 618 387 617 4001 592 5032 591 440 564 4028 591 5033 590 5034 589 440 563
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 611 386 612 3984 612 4984 612 387 611 3985 612 387 611 3986 611 4985 611 387 611 3986 611 4985 611 387 611 3986 610 4987 609 4985 611 389 609
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 12 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 12 00 00 00
+##  
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8510 4237 528 1592 528 1592 528 526 529 526 529 526 529 526 529 526 529 527 528 1591 529 1591 529 1592 528 527 528 1590 530 526 529 526 529 525 528 22533 529 1590 529 1592 528 526 529 526 529 526 529 526 529 526 529 526 529 1592 528 1591 555 1564 556 500 555 1565 554 500 529 526 529 524 529
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 12 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 64 46 00 00
+command: 5D A2 00 00
+##
+name: Tv_power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 1E E1 00 00
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 0A F5 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 40 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1A 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 12 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 12 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 12 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 12 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 12 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 20 DF 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 85 7C 00 00
+command: 80 7F 00 00
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 1E E1 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 0B 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 40 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 0A F5 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 52 00 00 00
+## 
+name: Power
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: Power
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: Power
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: Power
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: Power
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 01 FE 00 00
+##
+name: Power
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 976 723 1776 796 925 804 897 804 897 803 897 803 897 803 897 803 922 1610 919 783 1767 807 914 86103 921 778 1769 805 916 786 914 788 913 787 914 787 914 788 913 811 890 1617 914 787 1764 832 889 86082 920 778 1768 804 916 786 914 786 914 786 914 786 914 786 915 786 915 1616 915 786 1763 809 913
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0D F2 00 00
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0D F2 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0D F2 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0D F2 00 00
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9021 4377 655 452 654 452 654 1567 654 453 653 453 653 453 652 454 651 455 651 1568 654 1569 653 455 651 1570 652 1570 652 1570 652 1571 651 1572 649 480 626 481 624 482 623 1599 623 483 623 484 622 484 622 484 622 1601 621 1601 621 1601 621 484 622 1601 621 1601 621 1601 621 1601 621 39912 8910 2137 622 95435 8933 2137 622 95434 8934 2137 622 95434 8934 2137 622 95434 8934 2137 622 95434 8933 2137 622 95434 8933 2138 621 95436 8932 2138 621 95435 8933 2138 621 95435 8933 2137 622
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0D F2 00 00
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0D F2 00 00
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0F F0 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0D F2 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 54 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 0B 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 10 00 00 00
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9292 4518 635 522 635 522 635 523 634 523 662 494 664 494 663 1625 661 519 662 1602 660 1626 660 1650 636 1650 636 1651 635 1651 635 522 634 1653 633 524 633 1655 631 526 631 527 630 1657 630 527 630 527 630 527 630 1658 630 527 630 1658 630 1658 630 527 631 1658 629 1658 629 1658 629 40773 9295 2239 630 98164 9297 2241 630
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9028 4480 593 1667 589 541 597 532 596 534 594 562 566 564 564 539 589 567 571 558 570 1663 594 1666 591 1696 571 1662 595 1666 591 1669 598 1662 595 562 566 563 565 539 589 567 571 1661 596 561 567 563 565 564 564 1669 598 1662 595 1691 566 1668 599 558 570 1663 594 1692 565 575 1669Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 0A F5 00 00
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 277 1806 274 775 281 776 279 770 275 774 281 768 277 1814 277 1806 274 775 280 1803 277 780 276 773 282 766 279 1831 249 781 274 45962 281 1803 277 771 274 783 273 802 253 770 275 1834 257 801 255 768 277 1807 273 775 280 1811 280 1804 276 1806 274 774 282 1811 280 43887 275 1809 282 767 278 779 276 799 256 766 279 771 274 1843 248 1810 281 767 278 1806 274 782 274 776 279 796 249 1807 273 784 282 45962 279 1804 276 772 273 784 282 768 277 798 247 1836 255 802 253 796 249 1808 283 766 279 1813 278 1805 275 1808 272 776 279 1813 278 43890 282 1801 279 769 276 781 274 775 280 769 276 773 283 1834 257 1801 279 769 276 1808 272 784 282 767 278 772 273 1810 281 776 279
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3381 1656 439 401 438 1239 439 401 438 1240 439 401 438 1239 440 401 438 1239 440 400 439 1238 440 401 438 1239 440 1240 438 426 438 1240 439 400 439 1240 439 1240 438 1240 438 1240 438 401 438 401 438 402 437 1242 436 402 437 1242 437 402 437 403 436 1242 437 402 437 403 436 403 436 403 436 1242 437 1242 437 403 436 1242 437 403 436 403 436 403 436 1242 437 403 436 403 436 403 436 1243 436 403 436 1242 437 1242 437
+##
+name: Pvr_power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3387 1650 441 398 441 1238 439 400 440 1238 441 372 468 1237 442 371 470 1236 441 399 440 1238 441 397 441 1238 440 1238 441 398 440 1238 440 400 440 1239 440 1238 441 1239 440 1238 441 373 467 377 461 373 468 1237 442 398 441 1238 440 376 464 399 439 1241 439 399 439 400 440 399 440 376 464 399 439 400 439 400 440 400 438 400 440 400 439 375 465 1238 441 1239 440 399 439 1239 440 399 440 400 439 372 469 372 467
+## Pg1 - Common
+name: Power
+type: parsed
+protocol: NEC
+address: 28 00 00 00
+command: 0B 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 0A F5 00 00
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 264 1848 264 792 264 792 264 792 264 792 264 792 264 1848 264 1848 264 792 264 1848 264 792 264 792 264 792 264 1848 264 792 264 43560 264 1848 264 792 264 792 264 792 264 792 264 1848 264 792 264 792 264 1848 264 792 264 1848 264 1848 264 1848 264 792 264 1848 264 43560
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 352 1747 353 694 354 694 353 694 354 694 354 693 354 1747 354 1745 355 693 355 1746 354 693 355 691 357 691 356 1745 355 689 356 46388 358 1740 359 689 358 688 360 689 358 689 359 1741 358 688 359 689 359 1741 358 691 356 1743 356 1743 356 1742 357 690 357 1741 356 44286 261 1839 260 786 262 786 262 785 263 785 263 786 262 1838 262 1838 262 786 262 1839 261 786 262 784 264 787 261 1837 263 783 262 46491 261 1839 261 786 262 786 262 786 261 786 262 1839 261 786 262 786 262 1839 261 786 262 1838 262 1838 262 1838 262 786 262 1835 262
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 195 1833 300 766 280 760 275 790 276 737 309 731 304 1801 301 1804 309 731 304 1801 270 795 282 758 277 762 273 1832 270 769 246 45851 326 1780 302 739 307 785 282 732 303 736 310 1795 307 732 303 763 303 1775 307 733 334 1798 273 1832 270 1810 251 814 273 1780 281 43762 302 1804 309 758 277 737 330 762 284 730 305 734 301 1803 310 1796 306 733 302 1829 273 767 279 734 301 791 275 1804 278 762 253 45870 307 1798 304 763 272 767 279 787 279 760 275 1829 284 730 305 734 301 1804 309 757 278 1827 275 1804 278 1828 274 765 270 1835 278 43740 303 1776 306 787 279 760 275 765 281 759 307 758 277 1775 307 1799 303 736 299 1832 281 759 276 763 304 736 299 1832 281 733 302 45820 306 1800 302 764 282 758 277 788 278 762 284 1821 281 732 303 736 310 1796 307 733 302 1829 273 1806 276 1830 272 767 268 1837 245 43772 302 1778 304 789 277 762 284 756 279 786 249 765 301 1777 336 1770 301 764 282 1824 278 761 274 765 301 738 308 1824 278 761 274
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 278 1811 277 788 246 794 250 764 280 786 248 792 252 1813 275 1815 273 791 253 1812 276 789 255 785 249 791 253 1812 276 789 255 45322 280 1809 279 786 248 766 278 788 246 794 250 1815 273 792 252 788 246 1819 280 785 249 1817 271 1819 280 1810 278 787 247 1818 281 43217 274 1818 270 794 250 764 280 786 248 792 252 788 256 1809 279 1811 277 788 246 1819 280 785 249 766 278 762 272 1819 280 785 248
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 17 E8 00 00
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Power2
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 6D 00 00 00
+## 
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Power_alt
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 6D 00 00 00
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Aux_power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 6D 00 00 00
+##
+name: Power
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 54 00 00 00
+## 
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+## 
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Power2
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: D0 03 00 00
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 3E 00 00 00
+command: 0C 00 00 00
+## 
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+## 
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: AD ED 00 00
+command: B5 4A 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: A0 00 00 00
+command: 1C 00 00 00
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 12 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 1C 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 F7 00 00
+command: 0C F3 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 01 3E 00 00
+command: 0A F5 00 00
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 2E 00 00 00
+## 
+name: Power_off
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 2F 00 00 00
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: 0Power
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 15 00 00 00
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0D F2 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 DF 00 00
+command: 1C E3 00 00
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 10 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 12 00 00 00
+## 
+name: Power
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 19 00 00 00
+command: 18 00 00 00
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 69 69 00 00
+command: 01 FE 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: POWER
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## LG 21FU6RL, LG 21FU6RL-Z4, LG 21FU6RLX, LG 21FU6T, LG 21FU6TL, LG 21SA1RL, LG 21SB1RL, LG 21SB1RG-Z4
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 04 F4 00 00
+command: 08 F7 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: A0 B7 00 00
+command: E9 16 00 00
+## 
+name: Power_off
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 98 00 00 00
+## 
+name: Power_on
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4567 4475 732 1555 703 1608 705 1608 705 478 676 460 669 507 651 506 649 508 621 1640 672 1616 673 1639 674 508 648 508 648 508 647 485 644 511 647 508 648 1639 674 508 649 508 647 485 645 511 647 508 648 509 647 1639 674 509 647 1613 673 1641 673 1640 673 1640 672 1617 671 1640 673 48544 4566 4505 648 1639 674 1639 674 1639 647 510 648 508 648 509 648 508 648 508 648 1639 647 1642 673 1639 674 508 648 509 648 508 647 485 645 511 647 509 647 1640 673 509 647 509 646 486 643 511 647 509 647 509 647 1640 673 509 647 1615 672 1640 673 1640 673
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4499 4472 566 1662 565 1664 563 1665 562 565 538 564 539 562 541 560 543 558 545 1683 544 1658 569 1686 541 559 544 557 536 565 538 563 540 561 542 559 544 1684 543 558 545 556 537 564 539 562 541 560 543 558 545 1684 543 558 545 1683 544 1684 543 1660 567 1688 539 1689 538 1664 563 565 538 563 540 561 542 559 544 42973 4495 4472 566 1662 565 1663 564 1664 563 564 539 562 541 560 543 558 545 556 537 1691 536 1691 536 1666 572 555 538 564 539 561 542 559 544 557 536 565 538 1689 538 563 540 560 543 558 545 555 538 563 540 561 542 1686 541 559 544 1684 543 1684 543 1658 569 1685 542 1686 541 1660 567 559 544 557 536 565 538 563 540 42959 4499 4466 562 1666 572 1656 571 1656 571 556 537 564 539 562 541 559 544 556 537 1691 536 1690 537 1664 563 564 539 562 541 560 543 557 536 565 538 563 540 1688 539 561 542 559 544 556 537 564 539 562 541 560 543 1684 543 558 545 1682 545 1683 544 1657 570 1684 543 1659 568 1659 568 559 544 557 536 565 538 563 540 42955 4503 4463 565 1663 564 1663 564 1664 563 563 540 561 542 558 545 556 537 564 539 1688 539 1688 539 1662 565 562 541 559 544 557 536 565 538 563 540 560 543 1685 542 559 544 556 537 564 539 562 541 559 544 557 536 1692 535 565 538 1690 537 1690 537 1664 563 1691 536 1666 572 1656 571 556 537 564 539 562 541 559 544
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: E6 00 00 00
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: E6 00 00 00
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: E6 00 00 00
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: e6 00 00 00
+## 
+name: Power_off_only
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 98 00 00 00
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: E6 00 00 00
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: E6 00 00 00
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: E6 00 00 00
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: E6 00 00 00
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: E6 00 00 00
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: E6 00 00 00
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+##
+name: Power off
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 98 00 00 00
+##
+name: Power on
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: E6 00 00 00
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Power_off
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 98 00 00 00
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: E6 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: D7 00 00 00
+## 
+name: Power
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 0C 00 00 00
+## 
+name: Power
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 0C 00 00 00
+## 
+name: Power
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 0C 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 50 00 00 00
+command: 17 00 00 00
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 83 7A 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 15 EA 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 52 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 0A F5 00 00
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 01 72 00 00
+command: 1E E1 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 01 72 00 00
+command: 1E E1 00 00
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8073 3997 524 502 495 505 492 1508 498 503 494 1505 501 1500 495 1504 491 1510 496 3988 522 502 495 1505 501 501 496 504 493 1507 499 502 495 1505 501 501 496 18806 8072 3997 524 502 495 505 492 1507 499 502 495 1505 490 1509 497 1504 491 1510 496 3988 522 502 495 1505 501 500 497 503 494 1506 500 501 496 1504 491 510 498 18806 8072 3998 523 503 494 506 491 1509 497 504 493 1506 499 1501 494 1506 500 1502 493 3989 522 504 493 1507 499 502 495 505 492 1508 498 503 494 1506 499 502 495 18807 8072 3998 523 503 494 506 491 1509 497 504 493 1506 500 1501 494 1506 500 1502 493 3989 521 503 494 1506 500 502 495 505 492 1508 498 503 494 1506 500 502 495 18807 8072 3998 523 502 495 505 492 1508 498 503 494 1505 501 1500 495 1504 491 1510 496 3988 523 502 495 1505 501 501 496 503 494 1506 500 501 496 1504 491 510 498
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 38 00 00 00
+command: 01 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Power_off
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 03 FC 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 DF 00 00
+command: 1C E3 00 00
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 17 E8 00 00
+## 
+name: Power
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 54 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 17 E8 00 00
+##
+name: Power
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 54 00 00 00
+##
+name: Power_tcl
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 17 E8 00 00
+##
+name: Power
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 54 00 00 00
+##
+name: Power
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 54 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 97 68 00 00
+## 
+name: Power
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 54 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 17 E8 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 17 E8 00 00
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 17 E8 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0F F0 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0F F0 00 00
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0F F0 00 00
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 328 605 321 283 643 290 313 589 316 287 639 596 642 589 316 285 318 285 641 591 637 294 309 587 328
+##
+name: Escalade_tv_power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 176 67152 1091
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power_seiki
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+## 
+name: Power
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 15 EA 00 00
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 0A F5 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 12 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 20 DF 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 20 DF 00 00
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 970 719 972 718 1822 718 944 747 920 771 921 799 893 802 893 799 893 1644 893 799 1767 770 918 86138 893 798 894 798 1768 772 915 778 913 779 913 804 888 807 888 804 888 1627 911 805 1737 801 888 86143 893 798 918 774 1766 775 913 780 912 780 912 779 913 783 912 780 912 1625 913 780 1763 777 912 86141 892 798 918 774 1766 776 912 780 911 780 912 780 912 783 912 780 912 1626 912 780 1762 801 888 86137 892 799 917 774 1766 775 913 780 912 780 912 779 913 783 912 781 911 1650 888 805 1738 801 887 86148 892 799 918 775 1765 800 888 804 888 804 888 804 888 808 888 804 888 1651 888 805 1738 801 888 86133 944 772 919 773 1767 774 914 778 914 778 914 778 914 781 915 777 915 1624 914 778 1766 774 914
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 926 751 1760 756 922 756 921 782 897 782 897 783 897 784 897 784 897 1624 897 784 1736 787 895 85521 921 780 1734 784 896 783 894 785 895 784 895 784 895 785 895 784 896 1625 895 785 1735 787 896 85546 894 783 1732 763 917 783 896 783 896 784 895 784 895 785 894 785 897 1624 897 784 1734 786 897
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 872 800 873 797 1723 808 875 798 875 827 873 772 900 799 873 799 873 1614 873 800 1718 816 867 86386 844 828 844 828 1744 786 845 828 845 828 845 828 845 828 844 828 845 1643 844 828 1693 838 844
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 604 2557 605 452 604 451 605 451 605 454 602 452 604 450 606 450 606 452 604 452 604 19746 603 2558 604 976 1132 974 604 452 604 452 604 451 605 451 605 451 606 451 605 116246 602 2559 603 453 603 454 602 453 603 453 604 452 604 452 604 453 603 453 603 453 603
+##
+name: Power
+type: parsed
+protocol: Pioneer
+address: AA 00 00 00
+command: 1C 00 00 00
+## 
+name: POWER
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 0E F1 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 10 EF 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 0E F1 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 0E F1 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 12 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 00 FF 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: A0 00 00 00
+command: 5F 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 10 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 FB 00 00
+command: 0A F5 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 52 00 00 00
+## 
+name: Power
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 1E E1 00 00
+##
+name: Power
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 54 00 00 00
+##
+name: Ch_prev
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 34 00 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 54 00 00 00
+##
+name: Option
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 37 00 00 00
+##
+name: Blue
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 1B 00 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+## 
+name: Netflix
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 27 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 04 B9 00 00
+command: 00 FF 00 00
+##
+name: Power
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 54 00 00 00
+## 
+name: Ok
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 2F 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 82 00 00 00
+## 
+name: Mute
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: D0 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+## 
+name: Select
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 4A B5 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 0A F5 00 00
+## 
+name: Mute
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 0F F0 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: raw
+frequency: 36700
+duty_cycle: 0.330000
+data: 3488 3488 872 2616 872 872 872 872 872 2616 872 872 872 2616 872 872 872 872 872 872 872 872 872 872 872 2616 872 872 872 2616 872 2616 872 872 872 2616 872 872 872 2616 872 2616 872 2616 872 2616 872 2616 872 872 872 34008
+##
+name: Display
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3488 3488 872 2616 872 872 872 872 872 2616 872 872 872 2616 872 2616 872 2616 872 2616 872 2616 872 872 872 872 872 872 872 2616 872 2616 872 872 872 2616 872 872 872 872 872 872 872 872 872 872 872 2616 872 2616 872 34008Filetype: IR signals file
+Version: 1
+##
+name: POWER
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: -
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: FF 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: _
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: FF 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Mute
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 09 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Guide
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 1C 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Link
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 63 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Onscreen Console
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 20 00 00 00
+##
+name: Onscreen Console
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 21 00 00 00
+##
+name: Options
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 43 00 00 00
+##
+name: Dash
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: FF 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9016 4408 603 512 602 512 629 1599 686 428 630 483 630 484 629 485 628 492 627 1604 625 1605 624 491 623 1630 599 1631 598 1631 598 1631 598 1636 599 515 599 515 599 515 599 1631 599 515 599 515 599 515 599 521 599 1631 599 1631 599 1631 598 515 599 1631 598 1631 598 1631 598 1632 598 39999 9016 2166 626 95735 9012 2168 625 95735 9013 2167 626
+##
+name: Captions_cc
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8992 4433 602 512 602 511 683 1546 630 484 630 483 630 484 629 486 627 493 626 1629 600 1629 600 514 600 1630 599 1631 599 1631 598 1631 599 1636 599 1631 599 515 599 515 599 1631 598 1631 599 1631 599 516 598 521 599 516 598 1631 598 1631 599 516 598 516 598 516 598 1631 598 1632 599 40001 9017 2192 600
+##
+name: _
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: FF 00 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9219 4484 662 469 661 469 661 1627 660 471 658 474 656 499 631 499 631 499 631 1657 630 1657 631 500 630 1657 631 1657 631 1657 630 1657 631 1657 631 500 630 500 630 500 630 1657 630 500 631 500 630 500 631 500 630 1657 630 1658 630 1657 631 500 630 1657 631 1658 630 1658 630 1658 630 40107 9106 2202 631
+##
+name: Mute
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9219 4485 636 495 660 469 661 1626 661 471 658 473 657 474 656 499 631 500 630 1657 630 1657 631 500 630 1657 630 1657 631 1657 631 1657 630 1657 631 1657 631 500 630 500 630 1657 631 500 630 500 630 500 630 500 631 500 630 1657 631 1657 631 500 630 1657 631 1658 630 1657 631 1658 630 39868 9106 2178 655Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Wide
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 77 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Amazon
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: EA 00 00 00
+## 
+name: V_button
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 2D 00 00 00
+## 
+name: Enter_
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 3A 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: -
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: FF 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Amazon
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: EA 00 00 00
+## 
+name: Heart_radio
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: EE 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 10 00 00 00
+## 
+name: Souce
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 12 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: A0 00 00 00
+command: 5F 00 00 00
+## 
+name: Ch_prev
+type: parsed
+protocol: NEC
+address: A0 00 00 00
+command: 1F 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0F F0 00 00
+## 
+name: Pause
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 81 7E 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 54 00 00 00
+##
+name: Power_on_(3a)
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 5C 00 00 00
+##
+name: Power_off_(3b)
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: DC 00 00 00
+##
+name: Clear
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 60 00 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 17 E8 00 00
+## 
+name: Options
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 61 9E 00 00
+## 
+name: Crave
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 79 86 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 182 7827 172 2332 177 2328 181 2323 176 2330 179 1309 175 1331 174 2331 178 1328 177 2328 181 1307 177 2327 182 1325 180 1326 179 1309 176 1331 174 1332 173 2333 176 2310 178 1328 177 2328 181 1325 180 2306 182 1325 180 2325 174 8340 183 7825 175 2330 179 2326 173 2333 176 2310 178 1328 177 1329 176 2329 180 1308 176 2329 180 1326 179 2326 173 1334 182 1306 179 1328 177 1329 176 1312 183 2322 177 2329 180 1326 179 2325 174 1315 180 2326 173 1333 183 2323 176 8339 183 7824 175 2330 179 2307 181 2324 175 2331 178 1328 177 1330 175 2311 177 1329 176 2329 180 1326 179 2327 182 1305 179 1328 177 1328 177 1311 173 1334 182 2323 176 2330 179 1326 571 1916 180 1327 178 2325 587 920 575 1930 579
+##
+name: Mute
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: FC 00 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: A0 00 00 00
+command: 5F 00 00 00
+## 
+name: Ch_prev
+type: parsed
+protocol: NEC
+address: A0 00 00 00
+command: 1F 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 52 00 00 00
+## 
+name: Cc
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 42 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9047 4385 682 474 682 1578 708 476 679 1581 706 477 679 1582 705 1582 705 1582 678 1583 679 1607 679 1582 678 478 679 478 678 477 679 1582 705 1582 679 1583 679 1608 704 1582 705 478 678 1582 705 478 678 478 678 478 679 477 679 478 679 478 678 1582 705 478 678 1583 704 1582 705 1582 679 39574 9073 4387 679 478 678 1583 679 503 677 1584 705 478 678 1582 705 1582 705 1582 705 1582 705 1582 705 1582 678 479 677 479 678 479 677 1583 679 1608 704 1582 705 1582 705 1582 705 478 678 1583 704 478 678 478 678 1582 680 478 703 453 704 453 703 1557 703 480 676 1584 704 1583 704 478 678
+##
+name: Mute
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 20 DF 00 00Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0F F0 00 00
+## 
+name: Menu
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 14 EB 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0F F0 00 00
+## 
+name: Exit
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 1B E4 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0F F0 00 00
+##
+name: Picture
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 49 B6 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+## 
+name: Blue
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 34 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+## 
+name: Blue
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 34 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+## 
+name: 0
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 00 FF 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+## 
+name: Skip_back
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 1B 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+## 
+name: Skip_back
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 1B 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 15 EA 00 00
+## 
+name: 0
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 00 FF 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: Enter
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 35 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 01 72 00 00
+command: 1E E1 00 00
+## 
+name: Exit
+type: parsed
+protocol: NECext
+address: 01 72 00 00
+command: 18 E7 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 337 1695 339 664 340 664 339 665 338 664 339 693 310 1695 339 1696 338 693 310 1697 337 666 337 693 310 693 310 1723 311 692 311 44457 309 1723 310 692 311 692 311 692 311 693 310 1723 310 694 334 669 334 1700 333 672 331 1703 330 1727 306 1704 330 697 306 1727 306 42378 309 1724 333 670 333 670 333 672 331 673 330 673 330 1704 329 1704 329 674 329 1727 306 698 305 698 305 698 305 1728 305 698 305 44436 309 1724 334 670 333 671 332 672 331 697 306 1728 306 674 329 697 306 1728 306 698 306 1728 306 1727 306 1728 305 698 305 1727 306 42378 309 1724 334 669 334 671 332 672 330 673 330 697 306 1703 330 1727 306 697 306 1727 306 697 306 698 305 697 306 1728 305 697 306 44431 309 1724 334 670 333 670 333 672 331 696 306 1727 306 697 306 697 306 1727 306 697 306 1727 306 1727 306 1727 306 697 306 1728 305 42373 309 1724 334 670 333 670 333 671 332 697 306 697 306 1727 305 1727 306 697 306 1728 305 697 306 697 306 697 306 1727 306 697 306 44427 309 1724 334 669 334 670 333 672 331 697 306 1728 306 697 306 697 306 1727 306 697 306 1727 306 1727 306 1727 306 697 306 1728 305
+##
+name: Enter
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 337 1697 338 667 337 667 337 667 337 667 337 667 337 1697 337 1697 337 1696 338 667 336 1697 337 1697 337 669 334 1700 333 693 335 42356 360 1674 358 668 334 669 334 670 333 670 332 1701 332 671 332 671 332 671 332 1701 332 671 332 671 332 1701 332 671 332 1701 332 44441 334 1699 334 669 334 670 333 671 332 672 331 672 331 1702 332 1702 332 1702 331 672 331 1702 332 1702 332 672 331 1702 332 672 331 42380 334 1699 334 670 333 671 332 671 332 672 331 1701 332 672 331 672 331 671 332 1702 331 672 331 672 332 1702 332 672 331 1702 332Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 02 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 02 00 00 00
+##
+name: Guide
+type: parsed
+protocol: NEC
+address: 6E 00 00 00
+command: 36 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: M
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 168 7452 171 4908 177 7446 177 7442 170 7451 172 7450 173 7447 176 4904 171 4909 176 4906 169 7452 171 48095 172 7449 174 4906 169 7453 170 7450 173 15069 177 7444 169 9992 169 4911 174 7447 176 48091 177 7443 170 4910 175 7446 177 7443 170 7452 171 7450 173 7448 175 4904 171 4910 175 4905 170 7452 171 48096 171 7448 175 4907 168 7453 170 7449 174 7449 174 7446 177 7444 169 4911 174 4906 169 4912 173 7449 174 48094 173 7446 177 4903 172 7449 174 7446 177 7444 169 7453 170 7451 172 4908 177 4904 171 4908 177 7444 169 48098 169 7454 169 4911 174 7446 177 7444 168 7452 171 7450 173 7448 175 4906 169 4911 174 4906 169 7453 170 48098 169 7450 173 4908 177 7444 169 7452 171 7450 173 7448 175 7446 177 4903 172 4908 177 4904 171 7450 173 48095 171 7450 173 4907 168 7453 170 7452 171 7450 173 7447 176 7446 177 4903 172 4908 177 4904 171 7449 174 48094 173 7449 174 4905 170 7450 173 7448 175 7446 177 7445 168 7452 171 4910 175 4906 169 4910 175 7447 176 48091 175 7446 177 4904 171 7449 174 7448 175 7446 177 7444 169 7452 171 4910 175 4905 170 4911 174 7446 177 48092 174 7446 177 4904 171 7450 173 7448 175 7446 177 7444 169 7452 171 4910 175 4905 170 4911 174 7446 177 48092 174 7445 178 4904 171 7449 174 7447 176 7446 177 7444 168 7451 172 4909 176 4905 170 4910 175 7447 176 48090 177 7444 169 4912 173 7448 175 7447 176 7444 168 7452 171 7451 172 4909 176 4904 171 4908 177 7444 169 48100 177 7443 169 4911 174 7447 175 7446 176 7444 168 7452 171 7450 173 4908 177 4902 173 4908 177 7443 170 48099 177 114 170 7160 168 115 169 4628 173 7448 175 7446 177 116 168 7160 168 7451 172 7450 173 4908 177 4904 171 4909 176 7444 168 48099 177 7445 178 4901 174 7448 175 7446 177 7444 168 7452 170 7451 172 4909 176 4904 171 4910 175 7446 176 48091 175 7447 176 4904 171 7449 174 7447 176 7446 177 7444 169 7452 171 4911 174 4905 170 4912 173 7447 176 48093 174 7446 177 4904 171 7449 174 7448 175 7445 168 7454 169 7452 171 4909 176 4904 171 4909 176 7445 178 48090 177 7442 171 4910 175 7446 177 7444 168 7452 171 7450 173 7447 176 4906 169 4911 174 4906 169 7451 172Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 52 00 00 00
+## 
+name: Source
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 4E 00 00 00Filetype: IR signals file
+Version: 1
+##
+name: Vol_dn
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 990 603 589 1175 589 587 588 882 587 1175 588 588 588 589 586 1470 587 1471 587 588 588 881 588 12528 988 609 586 1177 587 589 586 882 587 1177 586 588 587 589 587 1470 587 1471 587 588 588 881 588 12527 989 607 588 1175 589 588 588 881 588 1175 588 588 588 587 589 1470 587 1470 588 589 587 881 588 12528 988 607 588 1175 589 588 587 882 587 1178 586 587 588 588 588 1472 586 1470 588 588 587 881 588 12529 987 608 587 1175 589 587 589 882 587 1175 589 589 587 587 589 1469 588 1470 588 587 589 881 588 12528 988 607 588 1175 589 590 585 883 586 1176 587 587 589 588 588 1471 586 1470 588 587 589 883 586 12527 989 607 588 1176 588 588 588 880 589 1176 588 588 588 589 586 1469 588 1469 589 588 587 881 588Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+##
+name: Resolution
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: CE 31 00 00
+##
+name: Alexa
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: a0 5f 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 561 442 562 4055 591 5032 592 413 591 4026 593 411 593 4026 593 5030 618 387 617 4001 592 5032 591 440 564 4028 591 5033 590 5034 589 440 563
+##
+name: Vol_dn
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 590 412 592 4026 593 5030 593 412 592 4025 594 5029 594 412 616 4002 618 5003 593 439 564 4027 592 439 564 4029 590 5033 590 5035 588 440 563Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 611 386 612 3984 612 4984 612 387 611 3985 612 387 611 3986 611 4985 611 387 611 3986 611 4985 611 387 611 3986 610 4987 609 4985 611 389 609
+##
+name: Adj_right
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 507 489 487 4112 484 5112 484 513 486 4112 485 513 486 4111 485 5111 485 514 485 4111 485 5112 484 513 486 4112 484 5112 484 512 487 4111 486Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 12 00 00 00
+## 
+name: Audio
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 52 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 12 00 00 00
+## 
+name: Mute
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 10 00 00 00
+Filetype: IR signals file
+Version: 1
+##  
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8510 4237 528 1592 528 1592 528 526 529 526 529 526 529 526 529 526 529 527 528 1591 529 1591 529 1592 528 527 528 1590 530 526 529 526 529 525 528 22533 529 1590 529 1592 528 526 529 526 529 526 529 526 529 526 529 526 529 1592 528 1591 555 1564 556 500 555 1565 554 500 529 526 529 524 529
+## 
+name: Music
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8476 4257 528 1590 528 1590 528 1591 527 1591 528 525 529 526 529 526 528 527 527 525 529 526 528 1591 528 1592 527 1591 528 527 527 526 528 1589 528 20398 527 1592 527 1590 529 1590 529 1590 529 526 528 526 528 526 528 526 528 526 528 526 528 1592 527 1591 528 1591 528 526 528 527 527 1592 525Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+## 
+name: Home
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 2E 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Fast_forward
+type: parsed
+protocol: NECext
+address: EA C2 00 00
+command: 55 AA 00 00Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 12 00 00 00
+## 
+name: Exit
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 44 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 64 46 00 00
+command: 5D A2 00 00
+##
+name: Tv_power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+##
+name: Info
+type: parsed
+protocol: NECext
+address: 64 46 00 00
+command: D1 2E 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 1E E1 00 00
+## 
+name: Ch_prev
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 18 E7 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 0A F5 00 00
+## 
+name: Subpage
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 19 E6 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 40 00 00 00
+##
+name: Mouse
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 00 00 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Blue
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 4B 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+## 
+name: Ch_list
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 44 BB 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1A 00 00 00
+## 
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 33 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 12 00 00 00
+## 
+name: Pic_size
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 59 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 12 00 00 00
+## 
+name: Fav
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 5D 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+##
+name: Amazon_music
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: A3 5C 00 00
+##
+name: Alexa
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: a0 5f 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+## 
+name: 0
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 00 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 12 00 00 00
+## 
+name: P.mode_(smart_picture)
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 18 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 12 00 00 00
+## 
+name: Input
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 0F 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+## 
+name: Fast_forward
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 17 E8 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 12 00 00 00
+## 
+name: 0
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 00 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 20 DF 00 00
+##
+name: Rec
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: E4 1B 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 85 7C 00 00
+command: 80 7F 00 00
+## 
+name: Prev_ch
+type: parsed
+protocol: NECext
+address: 85 7C 00 00
+command: 96 69 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+## 
+name: Blue
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 34 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 1E E1 00 00
+## 
+name: Exit
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 5D A2 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 0B 00 00 00
+## 
+name: Info
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 0A 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 40 00 00 00
+##
+name: Blue
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9213 4446 632 536 628 511 627 1616 627 539 598 542 597 542 597 542 598 542 598 1647 597 1648 597 542 598 1648 596 1648 597 1648 597 1648 597 1648 596 543 597 1648 596 1648 597 543 596 543 597 543 597 1648 597 542 597 1648 597 543 596 543 597 1648 597 1648 597 1648 597 543 596 1649 596 39850 9204 2220 596 95993 9207 2218 597Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 0A F5 00 00
+## 
+name: 9
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 09 F6 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 52 00 00 00
+## 
+name: Blue
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 5F 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: On_off
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: Philips_collection
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: BE 00 00 00
+## 
+name: Options
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 40 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: Home
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 54 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: Rc5_00
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 00 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+##
+name: Power
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: 0
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 00 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: 0
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 00 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: Text
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 3C 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+##
+name: Options
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 40 00 00 00
+##
+name: Text
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 3C 00 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: 0
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 00 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: On_off
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: Home
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 54 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: Option
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 40 00 00 00
+## 
+name: P-p
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0A 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: Options
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 40 00 00 00
+## 
+name: Paramont
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: B3 00 00 00
+## 
+name: Blue
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 70 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: Options
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 40 00 00 00
+## 
+name: Blue
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 70 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: AmbilOnOff
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 23 00 00 00
+## 
+name: Picture
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 0A 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 01 FE 00 00
+## 
+name: Mute
+type: parsed
+protocol: NECext
+address: 00 BD 00 00
+command: 04 FB 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: Pause
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 2C 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: 0
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 00 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+##
+name: Blue
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 70 00 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: Options
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 40 00 00 00
+## 
+name: 0
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 00 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 976 723 1776 796 925 804 897 804 897 803 897 803 897 803 897 803 922 1610 919 783 1767 807 914 86103 921 778 1769 805 916 786 914 788 913 787 914 787 914 788 913 811 890 1617 914 787 1764 832 889 86082 920 778 1768 804 916 786 914 786 914 786 914 786 914 786 915 786 915 1616 915 786 1763 809 913
+##
+name: Vol_dn
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 951 749 1832 741 978 721 927 774 926 776 924 776 924 801 899 1632 1773 798 920 782 918 1613 917 85257 898 802 1773 800 919 782 918 782 919 782 919 782 918 782 918 1613 1769 802 918 783 918 1614 917 85260 898 802 1772 800 919 782 919 782 919 782 919 782 918 782 919 1613 1769 802 918 782 918 1613 918Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0D F2 00 00
+## 
+name: Youtube
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 5A A5 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0D F2 00 00
+## 
+name: Fn_media
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 33 CC 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Exit
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 4D 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0D F2 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Peacock
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: CF 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Option
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 14 EB 00 00
+## 
+name: Voice_switch
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 11 EE 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0D F2 00 00
+##
+name: Guide
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 1D E2 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9021 4377 655 452 654 452 654 1567 654 453 653 453 653 453 652 454 651 455 651 1568 654 1569 653 455 651 1570 652 1570 652 1570 652 1571 651 1572 649 480 626 481 624 482 623 1599 623 483 623 484 622 484 622 484 622 1601 621 1601 621 1601 621 484 622 1601 621 1601 621 1601 621 1601 621 39912 8910 2137 622 95435 8933 2137 622 95434 8934 2137 622 95434 8934 2137 622 95434 8934 2137 622 95434 8933 2137 622 95434 8933 2138 621 95436 8932 2138 621 95435 8933 2138 621 95435 8933 2137 622
+##
+name: Blue
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9021 4376 656 450 656 450 656 1566 656 451 655 451 655 452 654 452 654 452 654 1567 655 1567 654 455 651 1568 654 1569 653 1569 653 1570 652 1571 651 1595 626 479 626 1596 625 481 625 1598 624 483 623 1599 623 483 623 483 623 1599 623 484 622 1600 622 483 623 1600 622 483 623 1599 623 39922 8912 2136 623 95445 8936 2136 623Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0D F2 00 00
+## 
+name: Amazonprime
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: BB 44 00 00
+## 
+name: Binge
+type: parsed
+protocol: NECext
+address: 00 BA 00 00
+command: 31 CE 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0D F2 00 00
+## 
+name: Options
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 14 EB 00 00
+## 
+name: Apps
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 5F A0 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0F F0 00 00
+## 
+name: Play
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 42 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0D F2 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Amazon
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 47 00 00 00
+## 
+name: Youtube
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 49 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 54 00 00 00
+## 
+name: Ok
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 2F 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 0B 00 00 00
+## 
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 12 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 10 00 00 00
+## 
+name: Audio
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 0B 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9292 4518 635 522 635 522 635 523 634 523 662 494 664 494 663 1625 661 519 662 1602 660 1626 660 1650 636 1650 636 1651 635 1651 635 522 634 1653 633 524 633 1655 631 526 631 527 630 1657 630 527 630 527 630 527 630 1658 630 527 630 1658 630 1658 630 527 631 1658 629 1658 629 1658 629 40773 9295 2239 630 98164 9297 2241 630
+##
+name: 0
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9365 4514 666 497 666 497 665 498 664 499 662 523 639 524 638 1638 661 524 639 1638 661 1659 639 1660 638 1661 637 1662 636 1663 635 529 633 1666 633 531 632 531 632 531 632 531 632 531 633 531 632 531 633 531 632 1668 632 1668 631 1668 632 1668 631 1668 631 1668 631 1668 631 1668 631 40996 9341 2252 632 98707 9341 2252 632Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9028 4480 593 1667 589 541 597 532 596 534 594 562 566 564 564 539 589 567 571 558 570 1663 594 1666 591 1696 571 1662 595 1666 591 1669 598 1662 595 562 566 563 565 539 589 567 571 1661 596 561 567 563 565 564 564 1669 598 1662 595 1691 566 1668 599 558 570 1663 594 1692 565 575 1669Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 0A F5 00 00
+## 
+name: Info
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 0B F4 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 277 1806 274 775 281 776 279 770 275 774 281 768 277 1814 277 1806 274 775 280 1803 277 780 276 773 282 766 279 1831 249 781 274 45962 281 1803 277 771 274 783 273 802 253 770 275 1834 257 801 255 768 277 1807 273 775 280 1811 280 1804 276 1806 274 774 282 1811 280 43887 275 1809 282 767 278 779 276 799 256 766 279 771 274 1843 248 1810 281 767 278 1806 274 782 274 776 279 796 249 1807 273 784 282 45962 279 1804 276 772 273 784 282 768 277 798 247 1836 255 802 253 796 249 1808 283 766 279 1813 278 1805 275 1808 272 776 279 1813 278 43890 282 1801 279 769 276 781 274 775 280 769 276 773 283 1834 257 1801 279 769 276 1808 272 784 282 767 278 772 273 1810 281 776 279
+##
+name: Mute
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 281 1803 278 771 274 782 274 775 281 769 276 1807 274 1817 274 1835 256 766 280 1804 277 780 276 773 283 767 278 1831 250 780 276 44910 276 1835 256 766 280 777 279 771 275 774 282 767 278 779 277 773 283 1800 281 768 277 1814 277 1806 275 1808 283 766 279 1811 280 44937 280 1803 278 771 274 783 283 766 279 770 275 1808 273 1819 272 1811 280 768 277 1807 274 782 274 776 280 769 276 1833 248 784 282Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3381 1656 439 401 438 1239 439 401 438 1240 439 401 438 1239 440 401 438 1239 440 400 439 1238 440 401 438 1239 440 1240 438 426 438 1240 439 400 439 1240 439 1240 438 1240 438 1240 438 401 438 401 438 402 437 1242 436 402 437 1242 437 402 437 403 436 1242 437 402 437 403 436 403 436 403 436 1242 437 1242 437 403 436 1242 437 403 436 403 436 403 436 1242 437 403 436 403 436 403 436 1243 436 403 436 1242 437 1242 437
+##
+name: Closedcaption
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3377 1659 437 402 437 1241 438 401 438 1241 438 401 438 1240 439 401 438 1240 465 375 465 1213 465 375 464 1215 464 1215 463 400 439 1240 439 400 439 1240 438 1241 437 1241 437 1242 437 402 437 402 437 403 436 1243 436 403 436 1243 436 403 436 403 436 1243 436 403 436 403 436 403 436 1243 436 1243 436 1243 436 403 436 403 436 1243 436 1243 436 403 436 403 436 1243 436 403 436 403 436 403 436 403 436 403 436 1243 436
+##
+name: Pvr_power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3387 1650 441 398 441 1238 439 400 440 1238 441 372 468 1237 442 371 470 1236 441 399 440 1238 441 397 441 1238 440 1238 441 398 440 1238 440 400 440 1239 440 1238 441 1239 440 1238 441 373 467 377 461 373 468 1237 442 398 441 1238 440 376 464 399 439 1241 439 399 439 400 440 399 440 376 464 399 439 400 439 400 440 400 438 400 440 400 439 375 465 1238 441 1239 440 399 439 1239 440 399 440 400 439 372 469 372 467
+##
+name: Pvr_stop
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3388 1649 441 377 462 1238 440 376 464 1237 441 398 440 1239 440 399 440 1239 440 400 440 1238 441 399 440 1239 440 1238 441 399 439 1239 440 399 441 1239 440 1238 441 1238 441 1238 440 399 440 399 440 400 439 1240 440 399 440 1239 440 399 440 399 441 1239 439 399 440 399 441 398 441 399 440 1240 439 399 440 399 440 400 439 400 438 378 463 398 440 1239 440 1239 440 399 439 1239 440 400 440 1239 440 399 440 399 440Filetype: IR signals file
+Version: 1
+## Pg1 - Common
+name: Power
+type: parsed
+protocol: NEC
+address: 28 00 00 00
+command: 0B 00 00 00
+## 
+name: Game_on/off
+type: parsed
+protocol: NEC
+address: 28 00 00 00
+command: 14 00 00 00
+## 
+name: 0
+type: parsed
+protocol: NEC
+address: 28 00 00 00
+command: 09 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 0A F5 00 00
+## 
+name: Info
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 0B F4 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 264 1848 264 792 264 792 264 792 264 792 264 792 264 1848 264 1848 264 792 264 1848 264 792 264 792 264 792 264 1848 264 792 264 43560 264 1848 264 792 264 792 264 792 264 792 264 1848 264 792 264 792 264 1848 264 792 264 1848 264 1848 264 1848 264 792 264 1848 264 43560
+##
+name: Set
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 264 1848 264 1848 264 792 264 792 264 792 264 792 264 1848 264 1848 264 1848 264 1848 264 792 264 792 264 792 264 1848 264 792 264 43560 264 1848 264 1848 264 792 264 792 264 792 264 1848 264 792 264 792 264 792 264 792 264 1848 264 1848 264 1848 264 792 264 1848 264 43560Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Now
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 67 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 352 1747 353 694 354 694 353 694 354 694 354 693 354 1747 354 1745 355 693 355 1746 354 693 355 691 357 691 356 1745 355 689 356 46388 358 1740 359 689 358 688 360 689 358 689 359 1741 358 688 359 689 359 1741 358 691 356 1743 356 1743 356 1742 357 690 357 1741 356 44286 261 1839 260 786 262 786 262 785 263 785 263 786 262 1838 262 1838 262 786 262 1839 261 786 262 784 264 787 261 1837 263 783 262 46491 261 1839 261 786 262 786 262 786 261 786 262 1839 261 786 262 786 262 1839 261 786 262 1838 262 1838 262 1838 262 786 262 1835 262
+##
+name: Sfast_forward
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 360 1738 362 687 361 688 360 687 361 1739 361 1740 361 1739 361 687 361 1738 362 686 362 687 361 1738 363 1738 362 1738 363 684 362 43236 354 1745 354 693 355 693 263 784 264 1836 264 786 262 787 261 1838 262 786 261 1837 263 1838 262 785 263 786 262 787 261 1835 262 45440 356 1744 357 690 359 691 357 689 359 1743 358 1741 360 1741 360 688 360 1741 360 688 360 688 360 1739 362 1740 360 1740 361 684 362 43241 312 1788 312 735 313 735 313 734 314 1788 313 734 314 736 312 1787 313 735 313 1788 312 1788 288 763 285 760 288 760 288 1810 289Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 195 1833 300 766 280 760 275 790 276 737 309 731 304 1801 301 1804 309 731 304 1801 270 795 282 758 277 762 273 1832 270 769 246 45851 326 1780 302 739 307 785 282 732 303 736 310 1795 307 732 303 763 303 1775 307 733 334 1798 273 1832 270 1810 251 814 273 1780 281 43762 302 1804 309 758 277 737 330 762 284 730 305 734 301 1803 310 1796 306 733 302 1829 273 767 279 734 301 791 275 1804 278 762 253 45870 307 1798 304 763 272 767 279 787 279 760 275 1829 284 730 305 734 301 1804 309 757 278 1827 275 1804 278 1828 274 765 270 1835 278 43740 303 1776 306 787 279 760 275 765 281 759 307 758 277 1775 307 1799 303 736 299 1832 281 759 276 763 304 736 299 1832 281 733 302 45820 306 1800 302 764 282 758 277 788 278 762 284 1821 281 732 303 736 310 1796 307 733 302 1829 273 1806 276 1830 272 767 268 1837 245 43772 302 1778 304 789 277 762 284 756 279 786 249 765 301 1777 336 1770 301 764 282 1824 278 761 274 765 301 738 308 1824 278 761 274
+##
+name: Mute
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 254 1721 360 681 354 738 308 706 329 711 355 1774 307 1772 361 1744 327 687 359 1772 299 742 335 705 330 736 279 1825 298 742 283 44773 384 1721 360 707 308 707 359 733 302 711 335 705 361 704 331 708 338 1766 336 704 331 1773 329 1776 306 1773 360 681 323 1782 331 44726 411 1722 328 686 360 733 302 711 335 705 361 1742 329 1803 330 1749 332 708 327 1777 335 705 330 710 325 741 274 1830 303 737 278 44778 359 1747 355 712 303 711 355 711 335 705 330 709 337 703 363 703 332 1770 332 709 337 1767 335 1771 300 1752 360 733 302 1776 326 44731 355 1751 330 711 355 737 309 705 330 710 336 1793 309 1771 331 1774 307 706 360 1771 300 740 326 714 332 735 280 1798 325 741 274Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 278 1811 277 788 246 794 250 764 280 786 248 792 252 1813 275 1815 273 791 253 1812 276 789 255 785 249 791 253 1812 276 789 255 45322 280 1809 279 786 248 766 278 788 246 794 250 1815 273 792 252 788 246 1819 280 785 249 1817 271 1819 280 1810 278 787 247 1818 281 43217 274 1818 270 794 250 764 280 786 248 792 252 788 256 1809 279 1811 277 788 246 1819 280 785 249 766 278 762 272 1819 280 785 248
+##
+name: Ch_prev
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 273 1816 272 767 277 789 255 785 249 791 253 787 246 1818 281 785 248 765 279 1812 276 789 255 759 275 791 253 1812 276 789 255 46372 281 1808 280 785 249 791 253 787 247 793 251 1814 274 791 253 1812 276 1814 274 791 253 1812 276 1814 274 1815 273 792 252 1813 275 42172 272 1819 280 785 249 765 279 761 273 768 276 764 280 1811 277 788 246 768 276 1815 273 792 252 788 246 794 250 1815 273 791 253Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+## 
+name: Mute
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0D 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 17 E8 00 00
+##
+name: CBS
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 6B 94 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: Info
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 12 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Power2
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 6D 00 00 00
+## 
+name: Vol-2
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 73 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Power_alt
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 6D 00 00 00
+## 
+name: D_blue
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 7D 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Aux_power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 6D 00 00 00
+## 
+name: D_blue
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 7D 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 54 00 00 00
+##
+name: Right
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: EA 00 00 00Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+## 
+name: Stop
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 03
+command: 20 00 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Mybutton1
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 02
+command: E0 02 00 00
+##
+name: Mybutton2
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 02
+command: 10 02 00 00
+##
+name: Rec
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 03
+command: 50 00 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Option
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 02
+command: 70 02 00 00
+##
+name: Record
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 03
+command: 50 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Option
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 02
+command: 70 02 00 00
+##
+name: Blue
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 01
+command: 30 03 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Option
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 02
+command: 70 02 00 00
+##
+name: Rec
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3513 1785 426 448 421 1333 427 446 423 452 417 463 417 457 423 451 418 456 424 456 424 450 419 455 425 450 419 460 420 1341 419 461 419 454 426 448 421 454 426 454 426 448 421 452 417 457 423 457 423 1336 424 1330 420 456 424 456 424 1336 424 456 424 450 419 454 426 448 421 1333 427 447 422 1332 418 457 423 456 424 450 419 1335 425 1334 426 453 427 447 422 1331 419 1342 418 462 418 456 424 1302 448 454 426Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+## 
+name: Option
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 02
+command: 70 02 00 00
+## 
+name: Skip_bk
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 03
+command: C0 01 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Option
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 02
+command: 70 02 00 00
+##
+name: Power2
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: D0 03 00 00
+##
+name: Rec
+type: parsed
+protocol: Kaseikyo
+address: B0 02 20 00
+command: 80 00 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Ch_prev
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 50 03 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Ch_prev
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 50 03 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 3E 00 00 00
+command: 0C 00 00 00
+##
+name: Subtitle
+type: parsed
+protocol: Samsung32
+address: 3E 00 00 00
+command: B2 00 00 00Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+## 
+name: Option
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 02
+command: 70 02 00 00
+## 
+name: Record
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 03
+command: 50 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Av
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 50 00 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Mute
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 20 03 00 00Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+## 
+name: Option
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 02
+command: 70 02 00 00
+## 
+name: Record
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 03
+command: 50 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Option
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 02
+command: 70 02 00 00
+##
+name: Skip_forward
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 03
+command: D0 01 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Option
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 02
+command: 70 02 00 00
+##
+name: Question
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3505 1691 482 416 454 1259 482 416 454 416 454 416 427 442 428 442 453 417 454 416 454 416 454 417 452 418 451 419 450 1291 449 422 448 423 447 424 446 423 447 423 447 424 447 424 446 424 447 424 446 1295 446 424 446 424 446 424 446 424 446 424 446 425 445 424 446 425 445 425 446 425 445 1296 445 1296 445 449 421 1320 421 425 446 1320 421 449 421 449 421 1320 422 1320 421 449 422 1320 421 449 422 449 421Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Information
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3523 1707 468 405 466 1276 467 406 465 406 494 376 495 376 495 376 494 377 494 377 494 378 493 405 465 406 464 407 463 1281 461 410 461 411 460 410 461 411 461 411 461 411 460 411 460 411 461 411 461 1283 460 411 461 411 460 411 461 411 460 411 460 411 461 411 461 411 460 1283 461 411 460 411 460 1283 460 1283 460 1284 460 411 460 411 460 1283 460 412 460 411 460 1283 460 1284 460 1284 459 412 459 1284 460
+##
+name: Option
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3553 1706 468 404 468 1275 468 404 467 404 467 404 468 404 467 404 467 403 468 403 468 403 494 377 494 378 492 380 490 1254 488 409 462 409 462 409 463 409 462 409 462 409 463 409 462 409 463 410 461 1282 462 1282 461 409 462 409 462 1282 461 410 461 410 462 410 461 410 461 1282 461 1282 461 1282 462 410 461 410 462 1282 462 410 461 1282 461 410 461 1282 462 1282 462 1282 461 410 461 1282 461 410 462 410 461
+##
+name: Last_view
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 3554 1678 496 403 468 1249 495 404 495 376 496 375 496 375 495 376 495 376 495 376 495 376 494 377 493 379 491 381 489 1255 488 383 488 383 488 383 488 383 488 383 488 383 489 383 488 383 489 383 488 1256 488 383 488 384 488 384 487 384 487 384 487 384 488 384 487 384 488 1256 487 1256 487 1256 488 384 487 1256 488 1256 487 384 487 384 487 1256 488 1256 487 1257 487 384 487 1256 487 1256 487 384 488 1256 488Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Vol_dn
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 10 02 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+##
+name: Ch_prev
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 50 03 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: On_off
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: D0 03 00 00
+## 
+name: Dash
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 03
+command: 00 01 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Blue
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 55 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+##
+name: Blue
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 34 00 00 00Filetype: IR signals file
+Version: 1
+## 
+name: On_off
+type: parsed
+protocol: NECext
+address: BA A0 00 00
+command: 4C B3 00 00
+## 
+name: Mute
+type: parsed
+protocol: NECext
+address: BA A0 00 00
+command: 01 FE 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: AD ED 00 00
+command: B5 4A 00 00
+## 
+name: Ok
+type: parsed
+protocol: NECext
+address: AD ED 00 00
+command: B3 4C 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: A0 00 00 00
+command: 1C 00 00 00
+##
+name: Blue
+type: parsed
+protocol: NEC
+address: A0 00 00 00
+command: 00 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 0C 00 00 00
+## 
+name: Pr_down
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 13 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 12 00 00 00
+##
+name: Google_Assistant
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 61 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 1C 00 00 00
+##
+name: Mute
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 08 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 F7 00 00
+command: 0C F3 00 00
+## 
+name: Vol_donw
+type: parsed
+protocol: NECext
+address: 00 F7 00 00
+command: 0F F0 00 00
+## 
+name: Ch_donw
+type: parsed
+protocol: NECext
+address: 00 F7 00 00
+command: 0D F2 00 00
+## 
+name: Mute
+type: parsed
+protocol: NECext
+address: 00 F7 00 00
+command: 11 EE 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 01 3E 00 00
+command: 0A F5 00 00
+##
+name: Home
+type: parsed
+protocol: NECext
+address: 01 3E 00 00
+command: 59 A6 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: 0
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 00 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Option
+type: parsed
+protocol: SIRC15
+address: 97 00 00 00
+command: 36 00 00 00
+## 
+name: Mute
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 14 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+##
+name: Back
+type: parsed
+protocol: SIRC15
+address: 97 00 00 00
+command: 23 00 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+##
+name: Mute
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 14 00 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Options
+type: parsed
+protocol: SIRC15
+address: 97 00 00 00
+command: 36 00 00 00
+## 
+name: Tv/radio
+type: parsed
+protocol: SIRC15
+address: 1A 00 00 00
+command: 57 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Display
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 3A 00 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Down
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 75 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Input
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 25 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Brightness
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 64 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Mute
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 14 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Action_menu
+type: parsed
+protocol: SIRC15
+address: C4 00 00 00
+command: 4B 00 00 00
+## 
+name: Txt
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 3F 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 2E 00 00 00
+## 
+name: Power_off
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 2F 00 00 00
+## 
+name: Vol_dn
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 13 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Pause
+type: parsed
+protocol: SIRC
+address: 11 00 00 00
+command: 39 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: On_off
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Hdmi
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 25 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Jump
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 3B 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Options
+type: parsed
+protocol: SIRC15
+address: 97 00 00 00
+command: 36 00 00 00
+## 
+name: Fw
+type: parsed
+protocol: SIRC15
+address: 97 00 00 00
+command: 3D 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Action
+type: parsed
+protocol: SIRC15
+address: C4 00 00 00
+command: 4B 00 00 00
+## 
+name: Titlelist
+type: parsed
+protocol: SIRC15
+address: 1A 00 00 00
+command: 65 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Options
+type: parsed
+protocol: SIRC15
+address: 97 00 00 00
+command: 36 00 00 00
+## 
+name: Audio
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 17 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Options
+type: parsed
+protocol: SIRC15
+address: 97 00 00 00
+command: 36 00 00 00
+## 
+name: Info
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 3F 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Ch_prev
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 11 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+##
+name: Mute
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 14 00 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Pic Off
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 3E 00 00 00
+## 
+name: Action
+type: parsed
+protocol: SIRC15
+address: C4 00 00 00
+command: 4B 00 00 00
+## 
+name: Options
+type: parsed
+protocol: SIRC15
+address: 97 00 00 00
+command: 36 00 00 00
+## 
+name: 0Power
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 15 00 00 00
+## 
+name: 0Options
+type: parsed
+protocol: SIRC20
+address: 10 01 00 00
+command: 73 00 00 00
+## 
+name: 0Vol_dn
+type: parsed
+protocol: SIRC15
+address: 30 00 00 00
+command: 13 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Ch_prev
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 11 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Options
+type: parsed
+protocol: SIRC15
+address: 97 00 00 00
+command: 36 00 00 00
+## 
+name: Stop
+type: parsed
+protocol: SIRC15
+address: 97 00 00 00
+command: 18 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Options
+type: parsed
+protocol: SIRC15
+address: 97 00 00 00
+command: 36 00 00 00
+## 
+name: Power
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 15 00 00 00
+## 
+name: Options
+type: parsed
+protocol: SIRC15
+address: 97 00 00 00
+command: 36 00 00 00
+## 
+name: Mute
+type: parsed
+protocol: SIRC
+address: 01 00 00 00
+command: 14 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 0D F2 00 00
+## 
+name: Netflix
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 2D D2 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: On_off
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 52 00 00 00
+## 
+name: Ok
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 4A 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 DF 00 00
+command: 1C E3 00 00
+## 
+name: 0
+type: parsed
+protocol: NECext
+address: 00 DF 00 00
+command: 0C F3 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+## 
+name: Return
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 16 E9 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 10 00 00 00
+## 
+name: Mts
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 5A 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: D_blue
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: C3 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 12 00 00 00
+## 
+name: Power
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+## 
+name: Left
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 15 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 19 00 00 00
+command: 18 00 00 00
+##
+name: Stop
+type: parsed
+protocol: NEC
+address: 19 00 00 00
+command: 07 00 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+##
+name: Google_Play
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 2C 00 00 00Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Device
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: F0 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Ch_prev
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 01 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Dtt
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 174 39827 177 19824 178 19823 168 19830 172 39829 175Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Input
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 0B 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Fwd
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 8E 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Ad
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 91 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Back
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 28 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Amazon
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 5C 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Right
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 02 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Red_button
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 72 00 00 00
+## 
+name: Green_button
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 71 00 00 00
+## 
+name: Yellow_button
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 63 00 00 00
+## 
+name: Blue_button
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 61 00 00 00
+## 
+name: Ad
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 91 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Ch_prev
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 01 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Mark_fav
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 1E 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Caption
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 39 00 00 00
+## 
+name: Amazon
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 5C 00 00 00
+## 
+name: Blue
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 61 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Amazon
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 5C 00 00 00
+##
+name: Blue (4 dots)
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 61 00 00 00
+
+
+
+
+
+
+
+
+
+
+
+
+
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Netflix
+type: parsed
+protocol: NEC
+address: D3 00 00 00
+command: 01 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 69 69 00 00
+command: 01 FE 00 00
+## 
+name: Mute
+type: parsed
+protocol: NECext
+address: 69 69 00 00
+command: 0E F1 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Caption
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 39 00 00 00
+## 
+name: Blue
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 61 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Select
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 44 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Lg_on/off
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: In_start
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: FB 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Amazon
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 5C 00 00 00
+## 
+name: Blue
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 61 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Fwd
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 8E 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: POWER
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Captions
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 39 00 00 00
+## 
+name: Blue
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 61 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Sling
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 6F 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Input
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 0B 00 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Ok
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 44 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Tv/rad
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: F0 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Right
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 06 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Home
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 7C 00 00 00
+Filetype: IR signals file
+Version: 1
+## LG 21FU6RL, LG 21FU6RL-Z4, LG 21FU6RLX, LG 21FU6T, LG 21FU6TL, LG 21SA1RL, LG 21SB1RL, LG 21SB1RG-Z4
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 03 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Red_button
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 72 00 00 00
+## 
+name: Green_button
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 71 00 00 00
+## 
+name: Yellow_button
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 63 00 00 00
+## 
+name: Blue_button
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 61 00 00 00
+## 
+name: Rakuten_tv
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 49 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Resume
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: BA 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Tv_radio
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: F0 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: P-only
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: FE 00 00 00
+##
+name: In_stop
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: FA 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 04 F4 00 00
+command: 08 F7 00 00
+## 
+name: Sound_output
+type: parsed
+protocol: NECext
+address: 04 F4 00 00
+command: 61 9E 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Amazon
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 5C 00 00 00
+## 
+name: Pause
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: BA 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Mute
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 09 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Pause
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: BA 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: A0 B7 00 00
+command: E9 16 00 00
+## 
+name: Source
+type: parsed
+protocol: NECext
+address: A0 B7 00 00
+command: A0 5F 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Stop
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 46 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power_off
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 98 00 00 00
+## 
+name: Power_on
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+##
+name: Enter
+type: parsed
+protocol: SIRC20
+address: 5A 0E 00 00
+command: 4A 00 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Source
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 01 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Subtitle
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 25 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Stop
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 46 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Pre_ch
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 13 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Tv_on/off
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Stb_on/off
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: E0 00 00 00
+## 
+name: Stop
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 46 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+##
+name: Info
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 2D 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4567 4475 732 1555 703 1608 705 1608 705 478 676 460 669 507 651 506 649 508 621 1640 672 1616 673 1639 674 508 648 508 648 508 647 485 644 511 647 508 648 1639 674 508 649 508 647 485 645 511 647 508 648 509 647 1639 674 509 647 1613 673 1641 673 1640 673 1640 672 1617 671 1640 673 48544 4566 4505 648 1639 674 1639 674 1639 647 510 648 508 648 509 648 508 648 508 648 1639 647 1642 673 1639 674 508 648 509 648 508 647 485 645 511 647 509 647 1640 673 509 647 509 646 486 643 511 647 509 647 509 647 1640 673 509 647 1615 672 1640 673 1640 673
+##
+name: Ch_prev
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 10 00 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Stop
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 46 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Info
+type: parsed
+protocol: Samsung32
+address: 05 00 00 00
+command: 1E 00 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+##
+name: Exit
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 2D 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Menu
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 1A 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Ch_list
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 6B 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Tools
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 4B 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4499 4472 566 1662 565 1664 563 1665 562 565 538 564 539 562 541 560 543 558 545 1683 544 1658 569 1686 541 559 544 557 536 565 538 563 540 561 542 559 544 1684 543 558 545 556 537 564 539 562 541 560 543 558 545 1684 543 558 545 1683 544 1684 543 1660 567 1688 539 1689 538 1664 563 565 538 563 540 561 542 559 544 42973 4495 4472 566 1662 565 1663 564 1664 563 564 539 562 541 560 543 558 545 556 537 1691 536 1691 536 1666 572 555 538 564 539 561 542 559 544 557 536 565 538 1689 538 563 540 560 543 558 545 555 538 563 540 561 542 1686 541 559 544 1684 543 1684 543 1658 569 1685 542 1686 541 1660 567 559 544 557 536 565 538 563 540 42959 4499 4466 562 1666 572 1656 571 1656 571 556 537 564 539 562 541 559 544 556 537 1691 536 1690 537 1664 563 564 539 562 541 560 543 557 536 565 538 563 540 1688 539 561 542 559 544 556 537 564 539 562 541 560 543 1684 543 558 545 1682 545 1683 544 1657 570 1684 543 1659 568 1659 568 559 544 557 536 565 538 563 540 42955 4503 4463 565 1663 564 1663 564 1664 563 563 540 561 542 558 545 556 537 564 539 1688 539 1688 539 1662 565 562 541 559 544 557 536 565 538 563 540 560 543 1685 542 559 544 556 537 564 539 562 541 559 544 557 536 1692 535 565 538 1690 537 1690 537 1664 563 1691 536 1666 572 1656 571 556 537 564 539 562 541 559 544
+##
+name: Exit
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 4498 4471 567 1687 540 1662 565 1663 564 536 567 560 543 558 545 556 537 564 539 1689 538 1663 564 1690 538 564 539 562 541 560 543 558 535 566 537 564 539 562 541 560 543 1659 568 1660 567 533 570 1659 568 559 544 1684 543 1685 542 1660 567 534 569 558 545 1658 569 558 545 1657 570 557 536 565 538 563 540 561 542 42974 4495 4473 565 1690 537 1665 562 1666 572 556 537 538 565 562 541 560 543 558 545 1683 544 1657 570 1685 542 558 545 556 537 565 538 563 540 561 542 558 545 556 537 564 539 1664 563 1664 563 537 566 1689 538 562 541 1687 540 1688 539 1662 565 562 541 560 543 1685 542 558 545 1683 544 557 536 565 538 563 540 560 543Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Extra
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: F6 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Sleep
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 03 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Voldown
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0B 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Stop
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 46 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Stop
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 46 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: E6 00 00 00
+## 
+name: Ad_subt
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 25 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: E6 00 00 00
+## 
+name: Menu_enter
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 68 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: PRE.CH
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 13 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: E6 00 00 00
+## 
+name: Pause
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 4A 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: e6 00 00 00
+## 
+name: Power_off_only
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 98 00 00 00
+## 
+name: Amazon
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: f4 00 00 00
+## 
+name: Colored_buttons
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: ce 00 00 00
+## 
+name: Exit_application
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 2d 00 00 00
+## 
+name: Unknown_application
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: bc 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: E6 00 00 00
+##
+name: Rakuten
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: BC 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+##
+name: Fast_forward
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 48 00 00 00Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: E6 00 00 00
+## 
+name: Ch_prev
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 10 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: 9
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0E 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: E_manual
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 3F 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: 0
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 11 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Forward
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 48 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Stop
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 46 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Yellow_x
+type: parsed
+protocol: NECext
+address: 21 9C 00 00
+command: 16 E9 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Mute
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0F 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: 9
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0E 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: E6 00 00 00
+## 
+name: 123
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1195 1215 435 588 435 888 436 2389 434 589 434 1489 435 2688 436 1188 435 1189 435 889 434 1488 436 1188 436 87817 302 949 307 398 306 675 304
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: E6 00 00 00
+##
+name: Disney+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1269 1201 410 601 410 902 391 2459 409 603 409 1506 431 2706 409 1502 410 2703 422 905 443 606 414 601 411 87535 284 970 284 418 284 694 284Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: E6 00 00 00
+##
+name: Samsung_tv_plus
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1223 1189 432 591 434 890 438 2385 439 584 441 1483 431 2392 433 2391 433 1790 438 1186 435 1188 433 2390 435 85118 308 947 308 396 304 675 308Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: E6 00 00 00
+##
+name: Disney+
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1280 1193 417 593 419 893 400 2450 417 592 420 1494 448 2696 418 1493 419 2693 431 896 443 595 423 592 419 87529 320 932 322 381 321 656 322Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Rec
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 49 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: 9
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 0E 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power off
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 98 00 00 00
+##
+name: Power on
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: numpad 0
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 11 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: E6 00 00 00
+## 
+name: Disney_Plus
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: DF 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Forw
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 48 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: On_off
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Home
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 79 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: On_off
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Ok
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 68 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+##
+name: 3speed
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 3C 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Input - Component
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 86 00 00 00
+## 
+name: Input - Component 2
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 88 00 00 00
+## 
+name: On Screen Remote
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 9C 00 00 00
+## 
+name: Sleep
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 03 00 00 00Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Power_off
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 98 00 00 00
+## 
+name: Fw
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 48 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Blue
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 16 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+##
+name: Ch_prev
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 10 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: E6 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: D7 00 00 00
+## 
+name: Blue
+type: parsed
+protocol: NEC
+address: 08 00 00 00
+command: 90 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 0C 00 00 00
+## 
+name: 0
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 00 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 0C 00 00 00
+## 
+name: Exit
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 25 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 0C 00 00 00
+## 
+name: 0
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 00 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 0C 00 00 00
+## 
+name: Prime_video
+type: parsed
+protocol: RC5
+address: 03 00 00 00
+command: 3E 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 50 00 00 00
+command: 17 00 00 00
+## 
+name: Pc
+type: parsed
+protocol: NEC
+address: 50 00 00 00
+command: 2C 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: Captions
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 1E 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 83 7A 00 00
+command: 08 00 00 00
+## Found this, not sure the function, doesn't correspond to remote button
+name: Something AFx
+type: parsed
+protocol: NECext
+address: 83 7A 00 00
+command: 0F 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 15 EA 00 00
+## 
+name: Audio
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 48 B7 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 52 00 00 00
+## 
+name: Mute
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 53 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 0A F5 00 00
+## 
+name: Source
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 53 AC 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 02 00 00 00
+## 
+name: Closedcaption
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 25 00 00 00
+## 
+name: 0
+type: parsed
+protocol: Samsung32
+address: 07 00 00 00
+command: 11 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: On_off
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 15 EA 00 00
+## 
+name: Enter
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 10 EF 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+## 
+name: 9
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 09 F6 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 01 72 00 00
+command: 1E E1 00 00
+## 
+name: Ok
+type: parsed
+protocol: NECext
+address: 01 72 00 00
+command: 5F A0 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 01 72 00 00
+command: 1E E1 00 00
+## 
+name: Blue/a->b
+type: parsed
+protocol: NECext
+address: 01 72 00 00
+command: 14 EB 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8073 3997 524 502 495 505 492 1508 498 503 494 1505 501 1500 495 1504 491 1510 496 3988 522 502 495 1505 501 501 496 504 493 1507 499 502 495 1505 501 501 496 18806 8072 3997 524 502 495 505 492 1507 499 502 495 1505 490 1509 497 1504 491 1510 496 3988 522 502 495 1505 501 500 497 503 494 1506 500 501 496 1504 491 510 498 18806 8072 3998 523 503 494 506 491 1509 497 504 493 1506 499 1501 494 1506 500 1502 493 3989 522 504 493 1507 499 502 495 505 492 1508 498 503 494 1506 499 502 495 18807 8072 3998 523 503 494 506 491 1509 497 504 493 1506 500 1501 494 1506 500 1502 493 3989 521 503 494 1506 500 502 495 505 492 1508 498 503 494 1506 500 502 495 18807 8072 3998 523 502 495 505 492 1508 498 503 494 1505 501 1500 495 1504 491 1510 496 3988 523 502 495 1505 501 501 496 503 494 1506 500 501 496 1504 491 510 498
+##
+name: Ent
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8063 4002 517 508 499 500 497 1503 492 508 499 1500 494 1504 501 1498 497 1504 501 3980 519 1505 500 500 497 1503 492 509 498 502 495 505 492 1508 497 504 493 18804 8066 4000 519 506 491 509 498 1501 494 506 491 1508 497 1502 493 1507 498 1503 492 3989 520 1505 500 500 497 1503 492 509 498 502 495 505 492 1508 497 504 493 18803 8066 4000 519 506 491 509 498 1501 494 507 500 1499 496 1503 492 1508 497 1503 492 3989 520 1505 500 500 497 1503 492 509 498 502 495 505 492 1508 497 504 493 18804 8066 3999 520 505 492 508 499 1500 495 505 492 1508 497 1502 493 1507 498 1503 492 3989 520 1505 500 500 497 1503 492 509 498 502 495 505 492 1508 497 504 493Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 38 00 00 00
+command: 01 00 00 00
+##
+name: Cc
+type: parsed
+protocol: NEC
+address: 38 00 00 00
+command: 53 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+## 
+name: Toongoggles
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 5E A1 00 00
+## 
+name: Tv
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 3F C0 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+## 
+name: Fav
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 18 E7 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+## 
+name: Zoom
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 52 AD 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Power_off
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Mute
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 1C 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 03 FC 00 00
+##
+name: 2
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 01 FE 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 DF 00 00
+command: 1C E3 00 00
+##
+name: Source
+type: parsed
+protocol: NECext
+address: 00 DF 00 00
+command: 17 E8 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 0C 00 00 00
+## 
+name: Google
+type: parsed
+protocol: Samsung32
+address: 0E 00 00 00
+command: 82 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 17 E8 00 00
+## 
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 10 EF 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 54 00 00 00
+## 
+name: Option
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 37 00 00 00
+## 
+name: Blue
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 1B 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 17 E8 00 00
+## 
+name: Vol_dn
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 10 EF 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 54 00 00 00
+## 
+name: Netflix
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: F7 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power_tcl
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 17 E8 00 00
+## 
+name: Select_tcl
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 2A D5 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 54 00 00 00
+##
+name: Ch_prev
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 34 00 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 54 00 00 00
+## 
+name: Exit
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 60 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 97 68 00 00
+## 
+name: Apple_tv
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 77 88 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 54 00 00 00
+## 
+name: Assistant
+type: parsed
+protocol: RCA
+address: 0F 00 00 00
+command: 3A 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 17 E8 00 00
+## 
+name: Now
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 6C 93 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 17 E8 00 00
+## 
+name: Options
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 61 9E 00 00
+## 
+name: Direct_TV
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: EC 13 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 17 E8 00 00
+## 
+name: Exit
+type: parsed
+protocol: NECext
+address: EA C7 00 00
+command: 66 99 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0F F0 00 00
+##
+name: Recall
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 10 EF 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0F F0 00 00
+## 
+name: CCD
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 1C E3 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 0F F0 00 00
+## 
+name: Time
+type: parsed
+protocol: NECext
+address: 86 05 00 00
+command: 9A 65 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 328 605 321 283 643 290 313 589 316 287 639 596 642 589 316 285 318 285 641 591 637 294 309 587 328
+##
+name: Options
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 337 624 291 285 641 292 311 590 315 288 638 598 640 591 647 585 642 589 638 293 310 586 329
+##
+name: Record
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 334 600 315 288 638 294 309 621 294 281 645 591 647 584 321 282 644 287 306 291 312 584 321 282 644 90012 326 606 320 284 642 289 314 589 316 287 639 597 641 589 316 287 639 292 311 286 307 589 316 286 640Filetype: IR signals file
+Version: 1
+##
+name: Escalade_tv_power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 176 67152 1091
+##
+name: Down
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 1061 57464 176Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: 0
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 10 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power_seiki
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 46 B9 00 00
+##
+name: Toon_goggles
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9040 4407 632 490 631 1608 660 461 686 435 660 462 659 463 658 464 657 469 657 1583 656 490 630 1610 628 1612 627 1613 626 1614 625 1615 625 501 626 496 625 1614 626 1614 625 1614 625 1615 625 496 625 1614 626 502 625 1615 625 497 625 496 625 497 624 496 625 1615 625 496 625 1614 625 41040 9036 2174 626
+##
+name: Auto
+type: parsed
+protocol: NECext
+address: 02 7D 00 00
+command: 52 AD 00 00Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: Subpage
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 2C 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 15 EA 00 00
+## 
+name: Blue
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 50 AF 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 0A F5 00 00
+## 
+name: Menu
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 5A A5 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 12 00 00 00
+##
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 1E 00 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 20 DF 00 00
+## 
+name: Dot
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 1B E4 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 20 DF 00 00
+## 
+name: Ok
+type: parsed
+protocol: NECext
+address: 84 E0 00 00
+command: 77 88 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Mute
+type: parsed
+protocol: Samsung32
+address: 17 00 00 00
+command: 15 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 970 719 972 718 1822 718 944 747 920 771 921 799 893 802 893 799 893 1644 893 799 1767 770 918 86138 893 798 894 798 1768 772 915 778 913 779 913 804 888 807 888 804 888 1627 911 805 1737 801 888 86143 893 798 918 774 1766 775 913 780 912 780 912 779 913 783 912 780 912 1625 913 780 1763 777 912 86141 892 798 918 774 1766 776 912 780 911 780 912 780 912 783 912 780 912 1626 912 780 1762 801 888 86137 892 799 917 774 1766 775 913 780 912 780 912 779 913 783 912 781 911 1650 888 805 1738 801 887 86148 892 799 918 775 1765 800 888 804 888 804 888 804 888 808 888 804 888 1651 888 805 1738 801 888 86133 944 772 919 773 1767 774 914 778 914 778 914 778 914 781 915 777 915 1624 914 778 1766 774 914
+##
+name: Exit
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 920 771 1799 739 950 743 949 742 950 742 950 742 949 746 973 1566 946 745 1798 1611 922 771 920 85259 946 746 1795 767 919 773 917 775 916 776 915 777 915 780 915 1623 915 777 1766 1619 915 778 914 85302 921 770 1770 770 916 776 916 776 916 776 916 777 915 780 915 1622 915 777 1766 1619 914 777 915 85266 943 772 1768 771 915 777 915 778 914 777 915 777 915 781 915 1624 914 778 1766 1620 915 778 915Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 926 751 1760 756 922 756 921 782 897 782 897 783 897 784 897 784 897 1624 897 784 1736 787 895 85521 921 780 1734 784 896 783 894 785 895 784 895 784 895 785 895 784 896 1625 895 785 1735 787 896 85546 894 783 1732 763 917 783 896 783 896 784 895 784 895 785 894 785 897 1624 897 784 1734 786 897
+##
+name: Guide
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 558 109747 921 780 897 780 1736 783 896 783 897 784 896 783 897 1624 1736 786 896 1625 1737 1626 895 75876 193 8649 922 757 921 756 1760 784 897 783 897 782 898 783 898 1623 1737 787 896 1624 1737 1626 897 84724 921 780 898 781 1735 785 896 783 897 784 895 784 898 1623 1737 786 896 1625 1737 1625 897Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 872 800 873 797 1723 808 875 798 875 827 873 772 900 799 873 799 873 1614 873 800 1718 816 867 86386 844 828 844 828 1744 786 845 828 845 828 845 828 845 828 844 828 845 1643 844 828 1693 838 844
+##
+name: Options
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 926 746 847 826 1695 806 876 826 847 827 874 798 847 825 847 1641 847 825 873 800 1719 1629 868 85589 846 825 847 825 1720 811 870 804 869 805 868 806 867 831 842 1646 842 831 842 831 1690 1657 841
+##
+name: GooglePlay
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 873 797 875 798 1723 806 906 766 934 739 906 767 906 1584 1748 1624 875 797 1719 1629 870Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: Enter
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 35 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 604 2557 605 452 604 451 605 451 605 454 602 452 604 450 606 450 606 452 604 452 604 19746 603 2558 604 976 1132 974 604 452 604 452 604 451 605 451 605 451 606 451 605 116246 602 2559 603 453 603 454 602 453 603 453 604 452 604 452 604 453 603 453 603 453 603
+## 
+name: Questionmark
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 602 2559 603 452 604 451 605 452 604 451 605 454 603 452 604 453 603 451 605 453 603 19745 604 2559 603 453 603 978 1130 973 605 453 603 454 603 452 604 452 605 453 603 116248 600 2560 602 454 602 454 603 455 601 454 602 455 601 455 601 455 601 455 602 453 603
+## 
+name: Contrast_plus
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 611 2551 611 444 612 444 612 444 612 446 610 446 610 445 611 446 610 444 612 444 612 19739 611 2551 611 970 611 443 1142 439 613 970 611 445 611 444 612 444 612 444 612 116178 618 2543 620 961 620 436 1149 433 618 963 618 438 619 437 619 436 620 437 619 116247 596 2565 598 458 598 460 596 460 597 460 596 459 598 458 593 465 591 465 591 464 592
+## 
+name: Contrast_minus
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 594 2565 597 459 598 460 596 459 597 460 597 460 596 460 596 459 597 460 596 460 596 19752 597 2566 596 459 597 983 1125 456 597 986 595 459 597 460 596 460 596 460 596 116256 591 2569 593 462 594 464 592 463 594 464 592 466 590 463 593 464 592 464 592 464 592
+## 
+name: AUX
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 584 2579 584 471 585 471 585 472 584 472 584 472 584 472 584 472 584 470 586 473 583 19767 583 2578 584 472 584 471 585 472 584 997 584 472 618 438 618 439 617 437 585 472 618 116164 585 2577 585 471 585 470 586 472 584 997 584 471 619 438 584 471 619 437 619 438 618 116239 586 2576 586 470 586 469 587 470 586 470 586 469 587 469 587 469 587 470 586 471 585
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: Pioneer
+address: AA 00 00 00
+command: 1C 00 00 00
+##
+name: Vol_up
+type: parsed
+protocol: Pioneer
+address: AA 00 00 00
+command: 0A 00 00 00
+##
+name: Vol_dn
+type: parsed
+protocol: Pioneer
+address: AA 00 00 00
+command: 0B 00 00 00
+##
+name: Mute
+type: parsed
+protocol: Pioneer
+address: AA 00 00 00
+command: 49 00 00 00
+##
+name: Enter
+type: parsed
+protocol: Pioneer
+address: AA 00 00 00
+command: 28 00 00 00
+##
+name: Up
+type: parsed
+protocol: Pioneer
+address: AA 00 00 00
+command: 26 00 00 00
+##
+name: Down
+type: parsed
+protocol: Pioneer
+address: AA 00 00 00
+command: 27 00 00 00
+##
+name: Left
+type: parsed
+protocol: Pioneer
+address: AA 00 00 00
+command: 25 00 00 00
+##
+name: Right
+type: parsed
+protocol: Pioneer
+address: AA 00 00 00
+command: 24 00 00 00
+##
+name: CH 0
+type: parsed
+protocol: Pioneer
+address: AA 00 00 00
+command: 00 00 00 00
+##
+name: CH 1
+type: parsed
+protocol: Pioneer
+address: AA 00 00 00
+command: 01 00 00 00
+##
+name: CH 2
+type: parsed
+protocol: Pioneer
+address: AA 00 00 00
+command: 02 00 00 00
+##
+name: CH 3
+type: parsed
+protocol: Pioneer
+address: AA 00 00 00
+command: 03 00 00 00
+##
+name: CH 4
+type: parsed
+protocol: Pioneer
+address: AA 00 00 00
+command: 04 00 00 00
+##
+name: CH 5
+type: parsed
+protocol: Pioneer
+address: AA 00 00 00
+command: 05 00 00 00
+##
+name: CH 6
+type: parsed
+protocol: Pioneer
+address: AA 00 00 00
+command: 06 00 00 00
+##
+name: CH 7
+type: parsed
+protocol: Pioneer
+address: AA 00 00 00
+command: 07 00 00 00
+##
+name: CH 8
+type: parsed
+protocol: Pioneer
+address: AA 00 00 00
+command: 08 00 00 00
+##
+name: CH 9
+type: parsed
+protocol: Pioneer
+address: AA 00 00 00
+command: 09 00 00 00
+##
+name: CH Return
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: 62 00 00 00
+##
+name: CH Enter
+type: parsed
+protocol: Pioneer
+address: AF 00 00 00
+command: 61 00 00 00
+##
+name: P+
+type: parsed
+protocol: Pioneer
+address: AA 00 00 00
+command: 10 00 00 00
+##
+name: P-
+type: parsed
+protocol: Pioneer
+address: AA 00 00 00
+command: 11 00 00 00
+##
+name: TV/DTV
+type: parsed
+protocol: Pioneer
+address: AA 00 00 00
+command: 0C 00 00 00
+##
+name: HDMI Control
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8550 4191 579 486 580 1536 581 487 579 1537 580 487 579 1538 579 487 579 1537 580 1537 580 485 581 1536 581 485 581 1537 580 486 580 1537 580 489 577 1536 581 1537 580 485 581 1535 582 1537 580 488 578 1536 581 486 580 486 580 485 581 1536 581 486 580 486 580 1537 580 486 580 1537 580 25290 8547 4190 580 1537 580 1563 554 1537 580 1537 580 488 578 1540 577 485 581 1539 578 485 581 486 580 485 581 488 578 1540 577 485 581 1537 580 486 580 484 582 1540 577 1537 580 485 581 1536 581 1537 580 486 580 484 582 1538 579 485 581 486 580 1537 580 486 580 485 581 1537 580 1563 554 25287 8549 4191 578 485 581 1536 581 485 581 1538 579 487 579 1538 579 485 581 1538 579 1537 580 487 579 1535 582 486 580 1537 580 485 581 1535 582 486 580 1539 578 1534 583 485 581 1536 581 1537 580 485 581 1537 580 485 581 485 581 487 579 1536 581 484 582 483 583 1538 579 485 581 1537 580 25287 8548 4191 578 1537 580 1536 581 1538 579 1538 579 485 581 1537 580 486 580 1536 581 487 579 486 580 486 580 485 581 1538 579 487 579 1539 578 487 579 488 578 1537 580 1536 581 486 580 1538 579 1538 579 485 581 485 581 1537 580 485 581 485 581 1537 580 487 579 486 580 1537 580 1536 581
+##
+name: Info
+type: parsed
+protocol: Pioneer
+address: AA 00 00 00
+command: 4A 00 00 00
+##
+name: Sound Mix
+type: parsed
+protocol: Pioneer
+address: AA 00 00 00
+command: 1E 00 00 00
+##
+name: Pic-In-Pic Move
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8537 4189 577 487 578 1539 577 513 552 1536 580 487 579 1538 578 485 580 1535 581 1537 579 487 578 1537 579 486 579 1534 582 486 579 1542 574 485 581 487 578 1535 581 1535 580 1537 579 1537 579 485 581 1537 579 485 580 1540 576 485 581 486 579 488 577 485 580 1537 579 486 579 1536 580 25275 8540 4187 579 1537 579 1537 579 1537 578 1536 580 488 577 1537 579 486 579 1537 579 484 581 487 578 486 579 513 552 1537 579 488 577 1563 552 490 576 1538 578 1533 582 1536 579 486 580 487 578 1536 580 486 580 488 577 486 580 487 578 487 578 1537 579 1535 581 486 579 1536 580 1536 579 25274 8541 4187 579 484 581 1538 578 486 579 1536 579 486 580 1535 580 488 577 1536 580 1535 580 486 580 1536 580 487 578 1537 579 487 578 1539 576 487 579 485 580 1537 579 1539 576 1537 579 1538 577 487 579 1535 581 486 580 1538 577 486 579 486 580 484 581 487 579 1537 578 489 577 1535 581 25273 8542 4187 579 1537 578 1538 578 1536 580 1536 580 486 579 1538 577 487 579 1536 580 487 578 489 576 488 578 486 579 1536 580 487 578 1536 579 487 579 1536 580 1536 580 1535 580 484 581 486 579 1538 578 486 580 488 577 486 579 487 578 488 578 1539 576 1536 579 487 579 1538 577 1536 580Filetype: IR signals file
+Version: 1
+## 
+name: POWER
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: F12
+type: parsed
+protocol: RC5X
+address: 00 00 00 00
+command: 29 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: -
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0B 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: Vol_dwn
+type: parsed
+protocol: RC5
+address: 00 00 00 00
+command: 11 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 0E F1 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 10 EF 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 0E F1 00 00
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 72 DD 00 00
+command: 0E F1 00 00
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 12 00 00 00
+## 
+name: 0
+type: parsed
+protocol: NEC
+address: 40 00 00 00
+command: 00 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 00 FF 00 00
+## 
+name: Exit
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 15 EA 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: On
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 00 FF 00 00
+## 
+name: Menu
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 40 BF 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: A0 00 00 00
+command: 5F 00 00 00
+## 
+name: Exit
+type: parsed
+protocol: NEC
+address: A0 00 00 00
+command: 10 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 10 00 00 00
+##
+name: Mute
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 17 00 00 00Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 FB 00 00
+command: 0A F5 00 00
+## 
+name: Mute
+type: parsed
+protocol: NECext
+address: 00 FB 00 00
+command: 0F F0 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+## 
+name: Closed_captioning
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 44 00 00 00
+## 
+name: Blue
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 61 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 52 00 00 00
+## 
+name: C_list
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 51 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 0C 00 00 00
+## 
+name: Blue
+type: parsed
+protocol: RC5
+address: 01 00 00 00
+command: 34 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 7F 00 00
+command: 1E E1 00 00
+#

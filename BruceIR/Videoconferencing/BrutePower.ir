@@ -1,0 +1,57 @@
+#
+name: FARSITE
+type: parsed
+protocol: NECext
+address: 34 CE 00 00
+command: 16 E9 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 44 00 00 00
+command: 1B 00 00 00
+## 
+name: F4
+type: parsed
+protocol: NEC
+address: 44 00 00 00
+command: 42 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Phone_book
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 542 2596 567 478 544 502 544 502 544 503 543 504 542 502 544 502 544 502 544 505 541 14115 566 2572 567 1002 567 479 543 503 1068 1025 1067 1024 568 479 567 480 566 13562 542 2597 542 1026 543 503 543 503 1068 1024 1068 1024 567 479 543 503 543 13585 567 2571 568 1002 566 479 568 479 1091 1002 1067 1025 566 479 567 478 575 13555 567 2571 568 1002 567 478 568 480 1091 1000 1068 1024 568 477 569 479 567 13561 567 2572 567 1003 566 478 568 477 1094 1001 1091 1000 568 480 566 482 540 13586 566 2572 567 1000 569 478 568 478 1093 1000 1092 1000 568 479 572 473 573 13556 566 2572 568 479 567 479 567 478 568 478 568 479 567 478 568 479 567 479 567 479 572
+##
+name: Unknown_65
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 492 2649 490 554 492 554 492 555 491 554 492 555 491 554 492 555 491 554 492 553 493 14182 491 2649 490 555 491 556 490 555 491 555 491 556 490 554 492 1077 492 556 490 553 493 13638 489 2647 492 555 491 556 490 553 493 555 491 554 492 554 492 554 492 555 491 555 491Filetype: IR signals file
+Version: 1
+##
+name: ZOOM-
+type: parsed
+protocol: NECext
+address: BA 4B 00 00
+command: C4 3B 00 00Filetype: IR signals file
+Version: 1
+## 
+name: Far_end_control
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: FA 00 00 00
+## 
+name: 3
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: EC 00 00 00
+Filetype: IR signals file
+Version: 1
+#

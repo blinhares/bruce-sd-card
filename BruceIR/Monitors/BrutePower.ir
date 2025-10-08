@@ -1,0 +1,104 @@
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1A 00 00 00
+## 
+name: Space_au
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: CF 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 41 00 00 00
+##
+name: Multi_Window
+type: parsed
+protocol: NEC
+address: 20 00 00 00
+command: 0F 00 00 00Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 42 BF 00 00
+command: 12 ED 00 00
+## 
+name: Vol_Dwn
+type: parsed
+protocol: NECext
+address: 42 BF 00 00
+command: 1F E0 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 0C 00 00 00
+## 
+name: Brightness_dn
+type: parsed
+protocol: RC6
+address: 00 00 00 00
+command: 13 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: On/Off
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 00 00 00 00
+## 
+name: Skip_backwards
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0C 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 04 F4 00 00
+command: 08 F7 00 00
+## 
+name: User Specified 2
+type: parsed
+protocol: NECext
+address: 04 F4 00 00
+command: 4F B0 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 08 00 00 00
+##
+name: Audio Select
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 61 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 60 30 00 00
+command: 02 FD 00 00
+#

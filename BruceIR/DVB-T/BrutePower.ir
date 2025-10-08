@@ -1,0 +1,37 @@
+#
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 1A 00 00 00
+##
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 8992 4419 624 1597 618 1631 594 531 571 581 573 553 226 1629 596 555 568 558 565 1657 599 552 181 1620 600 560 594 532 570 556 567 1629 606 553 590 510 571 554 569 557 566 560 573 553 570 1653 676 528 564 562 571 555 568 557 566 560 573 553 570 1626 599 535 723
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 19 00 00 00
+## 
+name: POWER
+type: parsed
+protocol: NEC
+address: 07 00 00 00
+command: 59 00 00 00
+##
+name: Power
+type: parsed
+protocol: NEC
+address: 35 00 00 00
+command: 01 00 00 00
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 20 FF 00 00
+command: 0F F0 00 00
+#

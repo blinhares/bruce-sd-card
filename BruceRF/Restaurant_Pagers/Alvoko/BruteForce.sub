@@ -1,0 +1,54 @@
+# Cancel the Call to the Waiter
+Filetype: Flipper SubGhz Key File
+Version: 1
+Frequency: 434075000
+Preset: FuriHalSubGhzPresetOok650Async
+Protocol: Princeton
+Bit: 24
+Key: 00 00 00 00 00 56 28 A1
+TE: 597
+# Call for the waiter
+Filetype: Flipper SubGhz Key File
+Version: 1
+Frequency: 434075000
+Preset: FuriHalSubGhzPresetOok650Async
+Protocol: Princeton
+Bit: 24
+Key: 00 00 00 00 00 56 28 A8
+TE: 597
+# Ask waiter for the Bill
+Filetype: Flipper SubGhz Key File
+Version: 1
+Frequency: 434075000
+Preset: FuriHalSubGhzPresetOok650Async
+Protocol: Princeton
+Bit: 24
+Key: 00 00 00 00 00 56 28 A2
+TE: 598
+# Cancel the Call to the Waiter
+Filetype: Flipper SubGhz Key File
+Version: 1
+Frequency: 434075000
+Preset: FuriHalSubGhzPresetOok650Async
+Protocol: Princeton
+Bit: 24
+Key: 00 00 00 00 00 56 28 A1
+TE: 597
+# Call for the waiter
+Filetype: Flipper SubGhz Key File
+Version: 1
+Frequency: 434075000
+Preset: FuriHalSubGhzPresetOok650Async
+Protocol: Princeton
+Bit: 24
+Key: 00 00 00 00 00 56 28 A8
+TE: 597
+# Ask waiter for the Bill
+Filetype: Flipper SubGhz Key File
+Version: 1
+Frequency: 434075000
+Preset: FuriHalSubGhzPresetOok650Async
+Protocol: Princeton
+Bit: 24
+Key: 00 00 00 00 00 56 28 A2
+TE: 598

@@ -1,0 +1,100 @@
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 1F 00 00 00
+## 
+name: OUT B
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 00 00 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 57 A8 00 00
+## 
+name: Back
+type: parsed
+protocol: NECext
+address: 00 9F 00 00
+command: 5F A0 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Power
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 43 BC 00 00
+## 
+name: TV
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 63 9C 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 6C 68 00 00
+command: 56 A9 00 00
+## 
+name: Zoom
+type: parsed
+protocol: NECext
+address: 6C 68 00 00
+command: 42 BD 00 00
+Filetype: IR signals file
+Version: 1
+##
+name: Y
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 9252 4511 576 568 577 568 576 570 574 570 574 570 574 570 574 569 575 1673 576 1675 574 1674 575 1674 575 1674 575 1673 576 1676 575 1676 576 570 574 569 571 1673 575 1674 574 1673 574 569 574 570 574 572 571 572 572 1678 574 570 574 571 567 568 575 1676 573 1675 570 1675 572 1673 571Filetype: IR signals file
+Version: 1
+##
+name: B NEXT
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0E 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: a8 00 00 00
+##
+name: EDID
+type: parsed
+protocol: NECext
+address: 00 ff 00 00
+command: 94 00 00 00
+Filetype: IR signals file
+Version: 1
+## 
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 45 00 00 00
+## 
+name: Next
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5A 00 00 00
+Filetype: IR signals file
+Version: 1
+#

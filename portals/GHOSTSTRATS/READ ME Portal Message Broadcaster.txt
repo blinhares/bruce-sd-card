@@ -1,0 +1,46 @@
+
+# Portal Message Broadcaster
+
+This tool is a **broadcast-only HTML portal** used to display a custom message to anyone who connects to your local Wi-Fi signal. There is **no login**, **no password**, and **no interaction** — just a simple message shown to the connecting user.
+
+---
+
+## 📡 How It Works
+
+- The host sets up a Wi-Fi hotspot or captive portal.
+- Any device that connects to this network will automatically be directed to a web page containing your message.
+- There is **no response field** and **no password required**.
+
+---
+
+## ✏️ Customizing the Message
+
+To edit the broadcasted message:
+
+1. Open the `.html` file in a text editor.
+2. Find the section that says:
+   ```
+   This is a test broadcast message.
+   ```
+3. Replace it with your own message.
+4. Save the file and deploy it on your captive portal, access point, or embedded device.
+
+This makes it ideal for:
+- Emergency broadcasts
+- Quick local alerts
+- Digital signage or presence awareness
+- Communication during offline events
+
+---
+
+## ⚠️ Disclaimer
+
+> This tool is for **educational and ethical use only**.  
+> Do **not** use this tool to manipulate or deceive users without their knowledge.  
+> The author is **not responsible** for misuse or any violations of law.  
+> Always use in controlled, consensual, or demonstration environments.
+
+---
+
+Broadcast safely.  
+— **GhostStrats**

@@ -1,0 +1,54 @@
+
+# GhostStrats Cyberpunk Portal Messenger
+
+This is a one-time-use **offline HTML messenger system** designed for secure communication between a host and a connecting user through a local captive portal or hotspot.
+
+---
+
+## 🔧 How It Works
+
+- The **host** of the portal edits this HTML file and **replaces the default message** (e.g., “This is a test message. Please respond.”) with their custom message or prompt.
+- A **user** connects to the host’s Wi-Fi access point and opens the captive portal in their browser.
+- The user sees the custom message and has a field to **submit a response**.
+- Once they submit, the message is saved **locally on the host device** using `localStorage`.
+- This portal is designed to be used **once per message** — after submission, the user should **disconnect** from Wi-Fi.
+
+---
+
+## 🧠 Host Instructions
+
+1. Open the `.html` file in a text editor.
+2. Locate the line that says:  
+   `"This is a test message. Please respond."`
+3. Replace it with your own question or prompt.
+4. Save the file and host it using:
+   - A captive portal device (ESP32/ESP8266)
+   - A Wi-Fi Pineapple / custom AP
+   - Or open it manually on your device browser
+
+---
+
+## 📥 Viewing the Response
+
+After a user submits their response:
+- The message is saved in the host browser’s local storage under the key:
+  ```
+  ghoststrats_msgs
+  ```
+- You can retrieve the saved responses by opening the browser console (F12) and running:
+  ```javascript
+  console.log(localStorage.getItem("ghoststrats_msgs"));
+  ```
+
+---
+
+## ⚠️ Disclaimer
+
+> This tool is for **educational and testing purposes only**.  
+> Do **not** use this for unauthorized data collection, surveillance, or any unethical activity.  
+> The creator assumes no responsibility for misuse. Use responsibly and only in environments where **all parties have consented**.
+
+---
+
+Stay anonymous. Stay ethical.  
+— **GhostStrats**

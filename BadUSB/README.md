@@ -300,6 +300,11 @@ Example:
 	REM Category: General
 </pre>
 
+## Test You PayLoad
+Use PyDuck to.
+
+https://github.com/CharlesTheGreat77/pyDucky
+
 <h1><a href="https://hak5.org/pages/policy">Legal</a></h1>
 
 Payloads from this repository are provided for educational purposes only.  Hak5 gear is intended for authorized auditing and security analysis purposes only where permitted subject to local and international laws where applicable. Users are solely responsible for compliance with all laws of their locality. Hak5 LLC and affiliates claim no responsibility for unauthorized or unlawful use.
@@ -315,6 +320,8 @@ See also:
 [Hak5 Software License Agreement](https://shop.hak5.org/pages/software-license-agreement)
 	
 [Terms of Service](https://shop.hak5.org/pages/terms-of-service)
+
+
 
 # Disclaimer
 <h3><b>As with any script, you are advised to proceed with caution.</h3></b>
